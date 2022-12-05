@@ -4,7 +4,7 @@ abnormals_delight-1.16.5-1.2.1.jar
 AdvancementPlaques-1.16.5-1.4.1.jar
 AI-Improvements-1.16.5-0.5.0.jar
 AmbientEnvironment-5.0.0.11.jar
-Apotheosis-1.16.5-4.8.99F.jar
+Apotheosis-1.16.5-4.8.9A0.jar
 appleskin-forge-mc1.16.x-2.4.0.jar
 Aquaculture-1.16.5-2.1.23.jar
 architectury-1.32.66.jar
@@ -62,6 +62,7 @@ dungeons_plus-1.16.5-1.1.5.jar
 Durability101-forge-1.16-0.0.4.jar
 edibles_1.16.5-2.4.jar
 embellishcraft-1.16.5-3.4.0.0.jar
+EnchantmentDescriptions-1.16.5-7.1.20.jar
 endergetic-1.16.5-3.0.2.jar
 Enhanced-Mushrooms-1.16.5-3.0.9.jar
 environmental-1.16.5-1.1.1.jar
@@ -84,7 +85,7 @@ ForgivingVoid_1.16.5-5.2.1.jar
 FruitTrees-1.16.5-2.5.0.jar
 ftb-chunks-forge-1605.3.2-build.115.jar
 ftb-library-forge-1605.3.4-build.90.jar
-ftb-money-1605.1.3-build.6.jar
+ftb-money-1605.1.4-build.9.jar
 ftb-quests-forge-1605.3.6-build.98.jar
 ftb-teams-forge-1605.2.3-build.40.jar
 ftb-ultimine-forge-1605.3.1-build.45.jar
@@ -94,6 +95,7 @@ guardvillagers-1.16.5.1.2.6.jar
 healingcampfire_1.16.5-3.9.jar
 humancompanions-1.16.5-1.5.1.jar
 Iceberg-1.16.5-1.0.45.jar
+illagers_plus-1.16.5v1.0.2.jar
 irregularchef-1.16.5-1.0.1.jar
 item-filters-forge-1605.2.5-build.9.jar
 ItemBorders-1.16.5-1.1.6.jar
@@ -101,12 +103,14 @@ ItemPhysicLite_v1.4.8_mc1.16.5.jar
 jei-1.16.5-7.7.1.153.jar
 JEIEnchantmentInfo-1.16.5-1.3.0.jar
 jmi-1.16.5-0.8.1-47.jar
+journeymap-1.16.5-5.8.5p5.jar
 journeymap-1.16.5-5.8.5p6.jar
 jumbofurnace-1.16.4-2.2.0.1.jar
 Kiwi-1.16.5-3.6.1.jar
 konkrete_forge_1.3.3_MC_1.16.2-1.16.5.jar
 lazydfu-0.1.3.jar
 light-overlay-5.8.1.jar
+litewolfcore-1.16.5v1.0.1.jar
 logprot-1.16-1.6.jar
 looot-1.16.4-1.0.0.3.jar
 lootbeams-1.16.5-release-july1722.jar
@@ -133,7 +137,7 @@ neapolitan-1.16.5-2.2.1.jar
 nether-s-exoticism-1.16.5-1.1.10.jar
 nethers_delight-2.1.jar
 nopotionshift_1.16.4-1.6.1.jar
-oauth-1.1.14-1.16.jar
+oauth-1.1.13-1.16.jar
 OresAboveDiamonds-1.16.5-v6.4.1.jar
 overloadedarmorbar-5.1.0.jar
 pamhc2crops-1.16.3-1.0.2.jar
@@ -178,8 +182,8 @@ Tidbits-0.1.3.jar
 topaddons-1.16.5-2.2.0-beta.jar
 TrashSlot_1.16.3-12.2.1.jar
 travelers_index-1.16.4-1.0.2.jar
-upgradedcore-1.16.5-1.0.0.3-release.jar
-upgradednetherite-1.16.5-2.0.0.8-release.jar
+upgradedcore-1.16.5-1.1.0.3-release.jar
+upgradednetherite-1.16.5-2.1.0.1-release.jar
 upgrade_aquatic-1.16.5-3.1.2.jar
 Uppers-0.3.2.jar
 valhelsia_core-16.0.15.jar
