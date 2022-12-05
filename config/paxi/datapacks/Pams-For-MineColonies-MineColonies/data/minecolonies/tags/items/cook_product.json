@@ -1,0 +1,32 @@
+{
+    "replace": false,
+    "values": [
+"pamhc2foodcore:butteritem",
+"pamhc2foodcore:creamitem",
+"pamhc2foodcore:cocoapowderitem",
+"pamhc2foodcore:mayonaiseitem",
+"pamhc2foodcore:cookingoilitem",
+"pamhc2foodcore:vinegaritem",
+"pamhc2foodcore:freshwateritem",
+"pamhc2foodcore:freshmilkitem",
+"pamhc2foodcore:saltitem",
+"pamhc2foodextended:hotsauceitem",
+"pamhc2foodextended:relishitem",
+"pamhc2foodextended:ketchupitem",
+"pamhc2foodextended:mustarditem",
+"pamhc2foodextended:sesameoilitem",
+"pamhc2foodextended:soysauceitem",
+"pamhc2foodextended:blackpepperitem",
+"pamhc2foodextended:saltandpepperitem",
+"pamhc2foodextended:mushroomoilitem",
+"pamhc2foodextended:currypowderitem",
+"pamhc2foodextended:fivespiceitem",
+"pamhc2foodextended:garammasalaitem",
+"pamhc2foodextended:groundnutmegitem",
+"pamhc2foodextended:hoisinsauceitem",
+"pamhc2foodextended:oystersauceitem",
+"pamhc2foodextended:saladdressingitem",
+"pamhc2foodextended:sweetandsoursauceitem",
+"pamhc2foodextended:vanillaitem"
+    ]
+}

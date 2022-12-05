@@ -1,0 +1,1163 @@
+{
+	id: "0000000000000579"
+	group: ""
+	order_index: 13
+	filename: "shop"
+	title: "Materials Exchange"
+	icon: "minecraft:firework_rocket"
+	disable_toast: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			disable_toast: true
+			x: -2.0d
+			y: -0.5d
+			id: "0000000000000581"
+			tasks: [{
+				id: "0000000000000582"
+				type: "item"
+				item: "oresabovediamonds:black_opal"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0000000000000585"
+				type: "item"
+				item: "minecraft:black_dye"
+				count: 64
+			}]
+		}
+		{
+			disable_toast: true
+			x: -2.0d
+			y: -1.5d
+			id: "0000000000000583"
+			tasks: [{
+				id: "0000000000000584"
+				type: "item"
+				item: "gemsnjewels:black_opal"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0000000000000586"
+				type: "item"
+				item: "minecraft:black_dye"
+				count: 64
+			}]
+		}
+		{
+			title: "Diorite"
+			icon: { id: "minecraft:diorite", Count: 64b }
+			disable_toast: true
+			x: -2.0d
+			y: 1.5d
+			id: "0000000000000587"
+			tasks: [{
+				id: "0000000000000588"
+				type: "item"
+				item: "minecraft:stone"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "000000000000059F"
+				type: "item"
+				item: "minecraft:diorite"
+				count: 64
+				random_bonus: 64
+			}]
+		}
+		{
+			title: "Andesite"
+			icon: { id: "minecraft:andesite", Count: 64b }
+			disable_toast: true
+			x: -2.0d
+			y: 2.5d
+			id: "0000000000000589"
+			tasks: [{
+				id: "000000000000058A"
+				type: "item"
+				item: "minecraft:stone"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "00000000000005A3"
+				type: "item"
+				item: "minecraft:andesite"
+				count: 64
+				random_bonus: 64
+			}]
+		}
+		{
+			title: "Granite"
+			icon: { id: "minecraft:granite", Count: 64b }
+			disable_toast: true
+			x: -2.0d
+			y: 3.5d
+			id: "000000000000058B"
+			tasks: [{
+				id: "000000000000058C"
+				type: "item"
+				item: "minecraft:stone"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "00000000000005A7"
+				type: "item"
+				item: "minecraft:granite"
+				count: 64
+				random_bonus: 64
+			}]
+		}
+		{
+			title: "Diorite"
+			icon: { id: "minecraft:diorite", Count: 64b }
+			disable_toast: true
+			x: -1.0d
+			y: 1.5d
+			id: "000000000000058D"
+			tasks: [{
+				id: "000000000000058E"
+				type: "item"
+				item: "minecraft:stone"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "00000000000005A0"
+				type: "item"
+				item: "minecraft:diorite"
+				count: 64
+				random_bonus: 64
+			}]
+		}
+		{
+			title: "Andesite"
+			icon: { id: "minecraft:andesite", Count: 64b }
+			disable_toast: true
+			x: -1.0d
+			y: 2.5d
+			id: "000000000000058F"
+			tasks: [{
+				id: "0000000000000590"
+				type: "item"
+				item: "minecraft:stone"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "00000000000005A4"
+				type: "item"
+				item: "minecraft:andesite"
+				count: 64
+				random_bonus: 64
+			}]
+		}
+		{
+			title: "Granite"
+			icon: { id: "minecraft:granite", Count: 64b }
+			disable_toast: true
+			x: -1.0d
+			y: 3.5d
+			id: "0000000000000591"
+			tasks: [{
+				id: "0000000000000592"
+				type: "item"
+				item: "minecraft:stone"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "00000000000005A8"
+				type: "item"
+				item: "minecraft:granite"
+				count: 64
+				random_bonus: 64
+			}]
+		}
+		{
+			title: "Diorite"
+			icon: { id: "minecraft:diorite", Count: 64b }
+			disable_toast: true
+			x: 0.0d
+			y: 1.5d
+			id: "0000000000000593"
+			tasks: [{
+				id: "0000000000000594"
+				type: "item"
+				item: "minecraft:stone"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "00000000000005A1"
+				type: "item"
+				item: "minecraft:diorite"
+				count: 64
+				random_bonus: 64
+			}]
+		}
+		{
+			title: "Andesite"
+			icon: { id: "minecraft:andesite", Count: 64b }
+			disable_toast: true
+			x: 0.0d
+			y: 2.5d
+			id: "0000000000000595"
+			tasks: [{
+				id: "0000000000000596"
+				type: "item"
+				item: "minecraft:stone"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "00000000000005A5"
+				type: "item"
+				item: "minecraft:andesite"
+				count: 64
+				random_bonus: 64
+			}]
+		}
+		{
+			title: "Granite"
+			icon: { id: "minecraft:granite", Count: 64b }
+			disable_toast: true
+			x: 0.0d
+			y: 3.5d
+			id: "0000000000000597"
+			tasks: [{
+				id: "0000000000000598"
+				type: "item"
+				item: "minecraft:stone"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "00000000000005A9"
+				type: "item"
+				item: "minecraft:granite"
+				count: 64
+				random_bonus: 64
+			}]
+		}
+		{
+			title: "Diorite"
+			icon: { id: "minecraft:diorite", Count: 64b }
+			disable_toast: true
+			x: 1.0d
+			y: 1.5d
+			id: "0000000000000599"
+			tasks: [{
+				id: "000000000000059A"
+				type: "item"
+				item: "minecraft:stone"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "00000000000005A2"
+				type: "item"
+				item: "minecraft:diorite"
+				count: 64
+				random_bonus: 64
+			}]
+		}
+		{
+			title: "Andesite"
+			icon: { id: "minecraft:andesite", Count: 64b }
+			disable_toast: true
+			x: 1.0d
+			y: 2.5d
+			id: "000000000000059B"
+			tasks: [{
+				id: "000000000000059C"
+				type: "item"
+				item: "minecraft:stone"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "00000000000005A6"
+				type: "item"
+				item: "minecraft:andesite"
+				count: 64
+				random_bonus: 64
+			}]
+		}
+		{
+			title: "Granite"
+			icon: { id: "minecraft:granite", Count: 64b }
+			disable_toast: true
+			x: 1.0d
+			y: 3.5d
+			id: "000000000000059D"
+			tasks: [{
+				id: "000000000000059E"
+				type: "item"
+				item: "minecraft:stone"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "00000000000005AA"
+				type: "item"
+				item: "minecraft:granite"
+				count: 64
+				random_bonus: 64
+			}]
+		}
+		{
+			disable_toast: true
+			x: -1.0d
+			y: -1.5d
+			id: "00000000000005AB"
+			tasks: [
+				{
+					id: "00000000000005AC"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:charcoal"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "00000000000005AD"
+					type: "item"
+					disable_toast: true
+					item: "pamhc2foodcore:grinderitem"
+				}
+			]
+			rewards: [{
+				id: "00000000000005BF"
+				type: "item"
+				item: "minecraft:black_dye"
+				count: 64
+			}]
+		}
+		{
+			disable_toast: true
+			x: 0.0d
+			y: -1.5d
+			id: "00000000000005AE"
+			tasks: [
+				{
+					id: "00000000000005AF"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:coal"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "00000000000005B0"
+					type: "item"
+					disable_toast: true
+					item: "pamhc2foodcore:grinderitem"
+				}
+			]
+			rewards: [{
+				id: "00000000000005C0"
+				type: "item"
+				item: "minecraft:black_dye"
+				count: 64
+			}]
+		}
+		{
+			disable_toast: true
+			x: 1.0d
+			y: -1.5d
+			id: "00000000000005B1"
+			tasks: [
+				{
+					id: "00000000000005B2"
+					type: "item"
+					disable_toast: true
+					item: "pamhc2crops:coffeebeanitem"
+					count: 16L
+					consume_items: false
+				}
+				{
+					id: "00000000000005B3"
+					type: "item"
+					disable_toast: true
+					item: "pamhc2foodcore:cocoapowderitem"
+					count: 16L
+				}
+				{
+					id: "00000000000005B4"
+					type: "item"
+					disable_toast: true
+					item: "pamhc2foodcore:grinderitem"
+				}
+			]
+			rewards: [{
+				id: "00000000000005C3"
+				type: "item"
+				item: "minecraft:black_dye"
+				count: 32
+			}]
+		}
+		{
+			disable_toast: true
+			x: -1.0d
+			y: -0.5d
+			id: "00000000000005B5"
+			tasks: [
+				{
+					id: "00000000000005B6"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:charcoal"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "00000000000005B7"
+					type: "item"
+					disable_toast: true
+					item: "pamhc2foodcore:grinderitem"
+				}
+			]
+			rewards: [{
+				id: "00000000000005C1"
+				type: "item"
+				item: "minecraft:black_dye"
+				count: 64
+			}]
+		}
+		{
+			disable_toast: true
+			x: 0.0d
+			y: -0.5d
+			id: "00000000000005B8"
+			tasks: [
+				{
+					id: "00000000000005B9"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:coal"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "00000000000005BA"
+					type: "item"
+					disable_toast: true
+					item: "pamhc2foodcore:grinderitem"
+				}
+			]
+			rewards: [{
+				id: "00000000000005C2"
+				type: "item"
+				item: "minecraft:black_dye"
+				count: 64
+			}]
+		}
+		{
+			disable_toast: true
+			x: 1.0d
+			y: -0.5d
+			id: "00000000000005BB"
+			tasks: [
+				{
+					id: "00000000000005BC"
+					type: "item"
+					disable_toast: true
+					item: "pamhc2crops:coffeebeanitem"
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "00000000000005BD"
+					type: "item"
+					disable_toast: true
+					item: "pamhc2foodcore:cocoapowderitem"
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "00000000000005BE"
+					type: "item"
+					disable_toast: true
+					item: "pamhc2foodcore:grinderitem"
+				}
+			]
+			rewards: [{
+				id: "00000000000005C4"
+				type: "item"
+				item: "minecraft:black_dye"
+				count: 32
+			}]
+		}
+		{
+			disable_toast: true
+			x: 5.5d
+			y: 1.5d
+			id: "15C5D11E419AE450"
+			tasks: [
+				{
+					id: "48B87DD049DA8285"
+					type: "item"
+					disable_toast: true
+					item: "embellishcraft:basalt_cobblestone"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "1FC72CE9203C8374"
+					type: "item"
+					disable_toast: true
+					item: "embellishcraft:basalt_cobblestone"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "6F092AB9BEA17E75"
+					type: "item"
+					item: "embellishcraft:basalt_cobblestone"
+					count: 64L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "0C2FEC16C8E011DA"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 64
+				}
+				{
+					id: "2D9692ADC07521DE"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 64
+				}
+				{
+					id: "17683549757B460D"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 64
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: 3.5d
+			y: 1.5d
+			id: "2433433D17585C7E"
+			tasks: [{
+				id: "34F28C012DA568DF"
+				type: "item"
+				item: "embellishcraft:basalt_cobblestone"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2D25C7F7E9822816"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 64
+			}]
+		}
+		{
+			disable_toast: true
+			x: 4.5d
+			y: 1.5d
+			id: "4C926AAC15E4F4D6"
+			tasks: [{
+				id: "1299A79B1095BBBA"
+				type: "item"
+				item: "embellishcraft:basalt_cobblestone"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "48B1E1D72656FEE9"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 64
+			}]
+		}
+		{
+			disable_toast: true
+			x: 2.5d
+			y: 2.5d
+			id: "2AB61F2D5FB750DB"
+			tasks: [{
+				id: "786E67E0B900FD40"
+				type: "item"
+				item: "embellishcraft:slate_cobblestone"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "101F7511C83D40FD"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 64
+			}]
+		}
+		{
+			disable_toast: true
+			x: 2.5d
+			y: 3.5d
+			id: "6479BC59309C3155"
+			tasks: [{
+				id: "624934D45D4E4508"
+				type: "item"
+				item: "embellishcraft:marble_cobblestone"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "636A116D4E97B2B4"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 64
+			}]
+		}
+		{
+			disable_toast: true
+			x: 3.5d
+			y: 2.5d
+			id: "25A8F2B630370CAF"
+			tasks: [{
+				id: "06D9BBD017CEDAB7"
+				type: "item"
+				item: "embellishcraft:slate_cobblestone"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3DE10C97C85E47B6"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 64
+			}]
+		}
+		{
+			disable_toast: true
+			x: 4.5d
+			y: 2.5d
+			id: "6689ADADDDEB9BA5"
+			tasks: [{
+				id: "65E8B0FE86A17377"
+				type: "item"
+				item: "embellishcraft:slate_cobblestone"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "11E98351F1A55168"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 64
+			}]
+		}
+		{
+			disable_toast: true
+			x: 5.5d
+			y: 2.5d
+			id: "78CDF7044F25B724"
+			tasks: [
+				{
+					id: "1A5BE2FF10533C37"
+					type: "item"
+					item: "embellishcraft:slate_cobblestone"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "5877FD7944D076F0"
+					type: "item"
+					item: "embellishcraft:slate_cobblestone"
+					count: 64L
+					consume_items: false
+				}
+				{
+					id: "6831BDC032CED5A3"
+					type: "item"
+					item: "embellishcraft:slate_cobblestone"
+					count: 64L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "7B9BC4CC370530BB"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 64
+				}
+				{
+					id: "7E153B8C7C6BCB2C"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 64
+				}
+				{
+					id: "5F2B90AE6DC01498"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 64
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: 3.5d
+			y: 3.5d
+			id: "0C6EAE66CF1B68DE"
+			tasks: [{
+				id: "50BAE9B61815A373"
+				type: "item"
+				item: "embellishcraft:marble_cobblestone"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "389A45552E9D1E81"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 64
+			}]
+		}
+		{
+			disable_toast: true
+			x: 4.5d
+			y: 3.5d
+			id: "4D9C8AC32FCBCB61"
+			tasks: [{
+				id: "5EFC7F486B0FAAFF"
+				type: "item"
+				item: "embellishcraft:marble_cobblestone"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2F2818DB53A938EB"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 64
+			}]
+		}
+		{
+			disable_toast: true
+			x: 5.5d
+			y: 3.5d
+			id: "3F9299DA09BC72B7"
+			tasks: [
+				{
+					id: "5E6E5CDD4B2E9897"
+					type: "item"
+					item: "embellishcraft:marble_cobblestone"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "3ED2DBC18E648B8F"
+					type: "item"
+					item: "embellishcraft:marble_cobblestone"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "04AC61B504788A33"
+					type: "item"
+					item: "embellishcraft:marble_cobblestone"
+					count: 64L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "1570E9BE3C8639C9"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 64
+				}
+				{
+					id: "0CFC8675F6993357"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 64
+				}
+				{
+					id: "58ADF870202508C9"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 64
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: 2.5d
+			y: 4.5d
+			id: "35CA88E8FE476F63"
+			tasks: [
+				{
+					id: "05753051135D5453"
+					type: "item"
+					item: "embellishcraft:gneiss_cobblestone"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "58460F2629612CA8"
+					type: "item"
+					item: "embellishcraft:gneiss_cobblestone"
+					count: 64L
+				}
+				{
+					id: "48D289600B0AF415"
+					type: "item"
+					item: "embellishcraft:gneiss_cobblestone"
+					count: 64L
+				}
+			]
+			rewards: [
+				{
+					id: "74925D76186E1869"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 64
+				}
+				{
+					id: "4C95FD127880EE0E"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 64
+				}
+				{
+					id: "2510168ABDCF75E3"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 64
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: 2.5d
+			y: 5.5d
+			id: "67E90C5CC1C66175"
+			tasks: [{
+				id: "2E08046B9A94DC07"
+				type: "item"
+				item: "embellishcraft:jade_cobblestone"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4F13877999C2BD98"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 64
+			}]
+		}
+		{
+			disable_toast: true
+			x: 2.5d
+			y: 6.5d
+			id: "48C078AA616FCFB1"
+			tasks: [{
+				id: "4606A2B9B5D9E628"
+				type: "item"
+				item: "embellishcraft:larvikite_cobblestone"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5281D71487AB9B96"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 64
+			}]
+		}
+		{
+			disable_toast: true
+			x: 3.5d
+			y: 4.5d
+			id: "56DF2EDBBA16F334"
+			tasks: [{
+				id: "0E5F030EB5F91BE3"
+				type: "item"
+				item: "embellishcraft:gneiss_cobblestone"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2BBFC914F04D64AA"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 64
+			}]
+		}
+		{
+			disable_toast: true
+			x: 4.5d
+			y: 4.5d
+			id: "0141A4E2D1405695"
+			tasks: [{
+				id: "15143AACF78A1FD0"
+				type: "item"
+				item: "embellishcraft:gneiss_cobblestone"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3E950428097D2D64"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 64
+			}]
+		}
+		{
+			disable_toast: true
+			x: 5.5d
+			y: 4.5d
+			id: "1EB138FFBB1475E5"
+			tasks: [
+				{
+					id: "5394ADC1FE148C43"
+					type: "item"
+					item: "embellishcraft:gneiss_cobblestone"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "2E2D4FB7D5B54977"
+					type: "item"
+					item: "embellishcraft:gneiss_cobblestone"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "36FA991470746293"
+					type: "item"
+					item: "embellishcraft:gneiss_cobblestone"
+					count: 64L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "4DB8C635FA9F8744"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 64
+				}
+				{
+					id: "2115F4AE28198107"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 64
+				}
+				{
+					id: "4098516496C0EE35"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 64
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: 3.5d
+			y: 5.5d
+			id: "60ED6C78791A8AC4"
+			tasks: [{
+				id: "3F2A98BE616B315E"
+				type: "item"
+				item: "embellishcraft:jade_cobblestone"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "368581472F95FF3C"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 64
+			}]
+		}
+		{
+			disable_toast: true
+			x: 4.5d
+			y: 5.5d
+			id: "5C84ED244C8E32ED"
+			tasks: [{
+				id: "3C07394EE4E3A104"
+				type: "item"
+				item: "embellishcraft:jade_cobblestone"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "44127C17C2520523"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 64
+			}]
+		}
+		{
+			disable_toast: true
+			x: 5.5d
+			y: 5.5d
+			id: "51024A67F5EB5381"
+			tasks: [
+				{
+					id: "757E960D06DEA3D1"
+					type: "item"
+					item: "embellishcraft:jade_cobblestone"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "2AF8D9B49EBFF11F"
+					type: "item"
+					item: "embellishcraft:jade_cobblestone"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "5F92A154E34D1D7B"
+					type: "item"
+					item: "embellishcraft:jade_cobblestone"
+					count: 64L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "4F55E8BAC0E5A481"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 64
+				}
+				{
+					id: "3BC01F862BC6A095"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 64
+				}
+				{
+					id: "2B7EDD865399235A"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 64
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: 3.5d
+			y: 6.5d
+			id: "45A5860D53E02283"
+			tasks: [{
+				id: "391CAB3400B8F6D0"
+				type: "item"
+				item: "embellishcraft:larvikite_cobblestone"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "72CCCD9D25DA6AA3"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 64
+			}]
+		}
+		{
+			disable_toast: true
+			x: 4.5d
+			y: 6.5d
+			id: "06AAE2EA7A542602"
+			tasks: [{
+				id: "55D435EF6B482F4C"
+				type: "item"
+				item: "embellishcraft:larvikite_cobblestone"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "220F2699F18A462D"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 64
+			}]
+		}
+		{
+			disable_toast: true
+			x: 5.5d
+			y: 6.5d
+			id: "59B5F16E29B66994"
+			tasks: [
+				{
+					id: "65C776DB7A128E2C"
+					type: "item"
+					item: "embellishcraft:larvikite_cobblestone"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "240EF4BCFBCF8893"
+					type: "item"
+					item: "embellishcraft:larvikite_cobblestone"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "5E453F4FF5765937"
+					type: "item"
+					item: "embellishcraft:larvikite_cobblestone"
+					count: 64L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "3A22CFA5EC6A5BF4"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 64
+				}
+				{
+					id: "7317A0979221B155"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 64
+				}
+				{
+					id: "4DA05CDA55A4C226"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 64
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: 2.5d
+			y: 1.5d
+			id: "2E53DCF438D28947"
+			tasks: [{
+				id: "6807AE2276A53FA7"
+				type: "item"
+				item: "embellishcraft:basalt_cobblestone"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "15472B5503F67F1D"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 64
+			}]
+		}
+	]
+}

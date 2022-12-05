@@ -1,0 +1,63 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.IngameMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = bottom-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = -100
+  width = 98
+  actionid = 9aaf03c0-e839-4da1-8da0-91c0d4a50e551640431230553
+  action = addbutton
+  y = -53
+  label = Get Help
+  value = https://discord.gg/r8CP8wrYsH
+  height = 20
+}
+
+customization {
+  orientation = bottom-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = 2
+  width = 98
+  actionid = 2c665289-0745-4ed9-80c9-73940a8f0dab1640431241754
+  action = addbutton
+  y = -53
+  label = Support the Author
+  value = https://www.patreon.com/Dreams01
+  height = 20
+}
+
+customization {
+  orientation = mid-right
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\litvadv.png
+  label = 
+  loopbackgroundanimations = true
+  hoverlabel = Click here to open project page!
+  x = -73
+  width = 73
+  actionid = f74d1ff7-aec9-4e53-a4be-6992fbff01de1664695323387
+  action = addbutton
+  y = -52
+  backgroundnormal = config\fancymenu\litvadv.png
+  value = https://www.curseforge.com/minecraft/modpacks/life-in-the-village-3
+  height = 105
+}
+

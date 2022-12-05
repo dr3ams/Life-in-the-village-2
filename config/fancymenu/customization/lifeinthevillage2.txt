@@ -1,0 +1,237 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = background
+  action = setbackgroundslideshow
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-left
+  x = 7
+  action = movebutton
+  y = 10
+}
+
+customization {
+  identifier = %id=400322%
+  width = 108
+  action = resizebutton
+  height = 22
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\lifeinthevillage2\bhlvmultiplayerhover.png
+  backgroundnormal = config\fancymenu\assets\lifeinthevillage2\bhlvmultiplayer.png
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-left
+  x = 5
+  action = movebutton
+  y = 33
+}
+
+customization {
+  identifier = %id=400382%
+  width = 108
+  action = resizebutton
+  height = 22
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\lifeinthevillage2\bhlvoptionshover.png
+  backgroundnormal = config\fancymenu\assets\lifeinthevillage2\bhlvoptions.png
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-left
+  x = 7
+  action = movebutton
+  y = 76
+}
+
+customization {
+  identifier = %id=502382%
+  width = 108
+  action = resizebutton
+  height = 22
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=502382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\lifeinthevillage2\bhlvquithover.png
+  backgroundnormal = config\fancymenu\assets\lifeinthevillage2\bhlvquit.png
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-left
+  x = 7
+  action = movebutton
+  y = -20
+}
+
+customization {
+  identifier = %id=400298%
+  width = 123
+  action = resizebutton
+  height = 31
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400298%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\lifeinthevillage2\bhlvsingleplayerhover.png
+  backgroundnormal = config\fancymenu\assets\lifeinthevillage2\bhlvsingleplayer.png
+}
+
+customization {
+  identifier = %id=400346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = mid-left
+  x = 7
+  action = movebutton
+  y = 13
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  orientation = mid-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\assets\lifeinthevillage2\bhlvdiscordhover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 5
+  width = 108
+  actionid = 353b61f0-db7c-47dd-a950-ea01413512591640874937691
+  action = addbutton
+  y = 55
+  backgroundnormal = config\fancymenu\assets\lifeinthevillage2\bhlvdiscord.png
+  value = https://discord.com/invite/CG6HjQjW5c
+  height = 22
+}
+
+customization {
+  orientation = top-right
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\assets\lifeinthevillage2\bhlvrentaserverhover.png
+  label = 
+  loopbackgroundanimations = true
+  x = -109
+  width = 103
+  actionid = 13289418-d248-490f-abe6-2787c3f94e5f1640875608984
+  action = addbutton
+  y = 6
+  backgroundnormal = config\fancymenu\assets\lifeinthevillage2\bhlvrentaserver.png
+  value = https://bisecthosting.com/xdreamz
+  height = 60
+}
+
+customization {
+  orientation = top-right
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\assets\lifeinthevillage2\bhlvdonatehover.png
+  label = 
+  loopbackgroundanimations = false
+  x = -189
+  width = 70
+  actionid = 13289418-d248-490f-abe6-2787c3f94e5f1640875608984
+  action = addbutton
+  y = 6
+  backgroundnormal = config\fancymenu\assets\lifeinthevillage2\bhlvdonate.png
+  value = https://www.patreon.com/Dreams01
+  height = 25
+}
+
+customization {
+  orientation = mid-right
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\litvadv.png
+  description = Click to open modpack's page
+  label = 
+  loopbackgroundanimations = true
+  x = -84
+  width = 84
+  actionid = bea1d64e-9f8a-4a33-9b77-cc61f4f1a8e81663517034157
+  action = addbutton
+  y = -60
+  backgroundnormal = config\fancymenu\litvadv.png
+  value = https://www.curseforge.com/minecraft/modpacks/life-in-the-village-3
+  height = 121
+}
+

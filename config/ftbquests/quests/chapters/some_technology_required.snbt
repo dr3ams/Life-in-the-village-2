@@ -1,0 +1,924 @@
+{
+	id: "08DDA0A105CBB3D5"
+	group: ""
+	order_index: 10
+	filename: "some_technology_required"
+	title: "Simple mechanisms"
+	icon: "silents_mechanisms:wrench"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 2.0d
+			y: 1.5d
+			id: "7EC2D6CCDE4671DC"
+			tasks: [{
+				id: "48373D6618E11246"
+				type: "item"
+				item: "silents_mechanisms:stone_machine_frame"
+			}]
+			rewards: [
+				{
+					id: "4A3897682F42D2A9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6A723714DA82EEC8"
+					type: "item"
+					item: "silents_mechanisms:wrench"
+				}
+				{
+					id: "542EE26B1A30C266"
+					type: "item"
+					item: "aquaculture:box"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			dependencies: ["7EC2D6CCDE4671DC"]
+			id: "209446BF7D7E5EB0"
+			tasks: [{
+				id: "703F34BEB65D6B7B"
+				type: "item"
+				item: "silents_mechanisms:basic_alloy_smelter"
+			}]
+			rewards: [
+				{
+					id: "79EB0F96CD002B9E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "168E73619DEC415C"
+					type: "item"
+					item: "silents_mechanisms:dark_oak_drying_rack"
+				}
+				{
+					id: "4DD3FEE8E45BA7DA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_materials"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			dependencies: ["04C1EB2FD66A80D7"]
+			id: "2703E87177F95404"
+			tasks: [{
+				id: "16A4F00BC2544316"
+				type: "item"
+				item: "silents_mechanisms:alloy_smelter"
+			}]
+			rewards: [
+				{
+					id: "41397957F4CFA9A1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0E7F967EF247BDF8"
+					type: "item"
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			dependencies: ["7EC2D6CCDE4671DC"]
+			id: "74A10848FE725741"
+			tasks: [{
+				id: "123AB023076E4DD7"
+				type: "item"
+				item: "silents_mechanisms:basic_crusher"
+			}]
+			rewards: [
+				{
+					id: "65DCCEECEB0B9FF8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "64F88B0C192C91BA"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "7B67D067F4728FDF"
+					type: "item"
+					item: "silents_mechanisms:nickel_chunks"
+					count: 5
+				}
+				{
+					id: "7D27B8DF5817B30D"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -1.5d
+			dependencies: ["04C1EB2FD66A80D7"]
+			id: "7EF4BDCB73C0F320"
+			tasks: [{
+				id: "53F5D722EBBD0834"
+				type: "item"
+				item: "silents_mechanisms:crusher"
+			}]
+			rewards: [
+				{
+					id: "6DD4847866FAEB4D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "300543196C3A44CD"
+					type: "item"
+					item: "silents_mechanisms:iron_chunks"
+					count: 8
+				}
+				{
+					id: "58756745954BB85F"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -1.5d
+			dependencies: ["04C1EB2FD66A80D7"]
+			id: "395CAF5F0581A134"
+			tasks: [{
+				id: "0FF7681D8FFE6D4A"
+				type: "item"
+				item: "silents_mechanisms:compressor"
+			}]
+			rewards: [
+				{
+					id: "3329EE6514F839AF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1A601D897BC06E48"
+					type: "item"
+					item: "silents_mechanisms:nickel_chunks"
+					count: 5
+				}
+				{
+					id: "3E6F4E80FD807BE0"
+					type: "item"
+					item: "silents_mechanisms:zombie_leather"
+					count: 7
+				}
+				{
+					id: "1C4382BA8575EA05"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -1.5d
+			dependencies: ["04C1EB2FD66A80D7"]
+			id: "4E58B3D605E6BD86"
+			tasks: [{
+				id: "7DE1B4E5D4C71FDE"
+				type: "item"
+				item: "silents_mechanisms:electric_furnace"
+			}]
+			rewards: [
+				{
+					id: "06C702B06BBC827A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2E402B43CE9D6EB4"
+					type: "item"
+					item: "silents_mechanisms:gold_chunks"
+					count: 5
+				}
+				{
+					id: "7AAEEBBE06A1E994"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_materials"
+						}
+					}
+				}
+				{
+					id: "7442E494C982EC3C"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 1.5d
+			dependencies: ["04C1EB2FD66A80D7"]
+			id: "06AFE178634F927C"
+			tasks: [{
+				id: "28BFDA75B05D0A70"
+				type: "item"
+				item: "silents_mechanisms:refinery"
+			}]
+			rewards: [
+				{
+					id: "0EACB3D122BD3BD2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "04613D6405FC34E8"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "433A2DE790E7C2D2"
+					type: "item"
+					item: "silents_mechanisms:bauxite_chunks"
+					count: 7
+				}
+				{
+					id: "44C090873FBDF355"
+					type: "item"
+					item: "silents_mechanisms:iron_chunks"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: 1.5d
+			dependencies: ["06AFE178634F927C"]
+			id: "0B031B85BC885073"
+			tasks: [{
+				id: "66257420BED6814F"
+				type: "item"
+				item: "silents_mechanisms:mixer"
+			}]
+			rewards: [
+				{
+					id: "41180C8D9C78F9CA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "10E3B77AF577545A"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "16A0ED652FDD50FF"
+					type: "item"
+					item: "silents_mechanisms:zombie_leather"
+					count: 3
+				}
+				{
+					id: "1EBD14A5132A922A"
+					type: "item"
+					item: "silents_mechanisms:nickel_chunks"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 1.5d
+			dependencies: ["0B031B85BC885073"]
+			id: "7B1AF75D49CAB86E"
+			tasks: [{
+				id: "68749F3ABC75AEF1"
+				type: "item"
+				item: "silents_mechanisms:solidifier"
+			}]
+			rewards: [
+				{
+					id: "6EB2BC3726565B50"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3E72E94AB2A971F4"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "3B1C19D4AAFAEC90"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_materials"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 16.0d
+			y: 1.5d
+			dependencies: ["707A9536156045B8"]
+			id: "015377D1F8F61F4F"
+			tasks: [{
+				id: "7BD4DE1E6E802D47"
+				type: "item"
+				item: "silents_mechanisms:infuser"
+			}]
+			rewards: [
+				{
+					id: "682386E1818E56DE"
+					type: "item"
+					item: "aquaculture:treasure_chest"
+				}
+				{
+					id: "18CE595EE3A7B2C9"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_materials"
+						}
+					}
+				}
+				{
+					id: "345F8E2DFEEDCE99"
+					type: "item"
+					item: "silents_mechanisms:nickel_chunks"
+					count: 5
+				}
+				{
+					id: "1AF50FAFFF14F23F"
+					type: "item"
+					item: "silents_mechanisms:zinc_chunks"
+					count: 5
+				}
+				{
+					id: "7238CD9B7B97F91B"
+					type: "item"
+					item: "silents_mechanisms:iron_chunks"
+					count: 8
+				}
+				{
+					id: "74F9D75035CE129C"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 0.5d
+			dependencies: ["04C1EB2FD66A80D7"]
+			id: "34ED7B3D04DE1F2C"
+			tasks: [{
+				id: "403614B000FB1463"
+				type: "item"
+				item: "silents_mechanisms:pump"
+			}]
+			rewards: [
+				{
+					id: "55EBC4308C60CE43"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "78876124ED4CA0A2"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 4.5d
+			dependencies: ["7EC2D6CCDE4671DC"]
+			id: "036E17254CF32C70"
+			tasks: [{
+				id: "62CA71FCB28BD3C0"
+				type: "item"
+				item: "silents_mechanisms:coal_generator"
+			}]
+			rewards: [
+				{
+					id: "1DD7E5D8FE5C8042"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5DDB373B140532C1"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "2FBA4832E3B559AC"
+					type: "item"
+					item: "silents_mechanisms:nickel_chunks"
+					count: 5
+				}
+				{
+					id: "6A6846F740088076"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 4.5d
+			dependencies: ["04C1EB2FD66A80D7"]
+			id: "37C18A83AC641473"
+			tasks: [{
+				id: "7E87F4CFDFEC6F26"
+				type: "item"
+				item: "silents_mechanisms:lava_generator"
+			}]
+			rewards: [
+				{
+					id: "7ACBF848241BD18A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1EB3F01F7ECB23A4"
+					type: "item"
+					item: "silents_mechanisms:zinc_chunks"
+					count: 5
+				}
+				{
+					id: "5ABC241C50572B3D"
+					type: "item"
+					item: "silents_mechanisms:zombie_leather"
+					count: 3
+				}
+				{
+					id: "7F9A4E93AF9D7C54"
+					type: "item"
+					item: "aquaculture:treasure_chest"
+				}
+				{
+					id: "4C4EEDE98EBDE936"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_materials"
+						}
+					}
+				}
+				{
+					id: "3FAB0381E878387A"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 4.5d
+			dependencies: [
+				"04C1EB2FD66A80D7"
+				"06AFE178634F927C"
+			]
+			id: "33DDC8BCA118F3AC"
+			tasks: [{
+				id: "011AAC771DF26802"
+				type: "item"
+				item: "silents_mechanisms:diesel_generator"
+			}]
+			rewards: [
+				{
+					id: "569CE5431F5DCA99"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "33C4ED579EF138ED"
+					type: "item"
+					item: "silents_mechanisms:nickel_chunks"
+					count: 5
+				}
+				{
+					id: "2BF88210E05BB067"
+					type: "item"
+					item: "silents_mechanisms:gold_chunks"
+					count: 5
+				}
+				{
+					id: "3B9CCEB73EA386B3"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "252D0863521FFBD8"
+					type: "item"
+					item: "aquaculture:treasure_chest"
+				}
+				{
+					id: "0E18A9FD420DF324"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 4.5d
+			dependencies: ["04C1EB2FD66A80D7"]
+			id: "3856005A8DE45325"
+			tasks: [{
+				id: "35E539ACA6F936F6"
+				type: "item"
+				item: "silents_mechanisms:battery_box"
+			}]
+			rewards: [
+				{
+					id: "5EDF9FB2A0A41ECE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3AB2C2E477B82534"
+					type: "item"
+					item: "aquaculture:treasure_chest"
+				}
+				{
+					id: "59922E9EF67CA9C1"
+					type: "item"
+					item: "silents_mechanisms:zinc_chunks"
+					count: 5
+				}
+				{
+					id: "566D238733278932"
+					type: "item"
+					item: "silents_mechanisms:bauxite_chunks"
+					count: 7
+				}
+				{
+					id: "4B58FBAA8C906F58"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			dependencies: ["209446BF7D7E5EB0"]
+			id: "04C1EB2FD66A80D7"
+			tasks: [{
+				id: "305295615C15917D"
+				type: "item"
+				item: "silents_mechanisms:alloy_machine_frame"
+			}]
+			rewards: [
+				{
+					id: "2BBCF5B35E48240A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7C1B09DA0AA4E5FA"
+					type: "item"
+					item: "aquaculture:treasure_chest"
+				}
+				{
+					id: "0440BCD5F3B402A0"
+					type: "item"
+					item: "silents_mechanisms:bauxite_chunks"
+					count: 7
+				}
+				{
+					id: "7654C716F59E3003"
+					type: "item"
+					item: "silents_mechanisms:nickel_chunks"
+					count: 5
+				}
+				{
+					id: "0B943D318293FD33"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_materials"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			dependencies: ["209446BF7D7E5EB0"]
+			id: "5CAB4D678C11E258"
+			tasks: [{
+				id: "330E2D9505A1C8EF"
+				type: "item"
+				item: "silents_mechanisms:wire"
+			}]
+			rewards: [
+				{
+					id: "2C6D5C9101C81313"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "06328A4FC71EF02C"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: 1.5d
+			dependencies: ["7B1AF75D49CAB86E"]
+			id: "707A9536156045B8"
+			tasks: [{
+				id: "32C89AA468CB6B40"
+				type: "item"
+				item: "silents_mechanisms:plastic_sheet"
+			}]
+			rewards: [
+				{
+					id: "7AB6F186C6FAB990"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1F325B9C265380AF"
+					type: "item"
+					item: "aquaculture:box"
+				}
+				{
+					id: "636348A1A1058108"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_mob_drops"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: 2.5d
+			dependencies: ["707A9536156045B8"]
+			id: "509B50B05C9BEB8E"
+			tasks: [{
+				id: "001188DA4DA05D2E"
+				type: "item"
+				item: "silents_mechanisms:upgrade_case"
+			}]
+			rewards: [
+				{
+					id: "58D9D5E0815A3F93"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5D04ED093DBB5080"
+					type: "item"
+					item: "aquaculture:box"
+				}
+				{
+					id: "2AD517C86E8EEFA3"
+					type: "item"
+					item: "silents_mechanisms:bauxite_chunks"
+					count: 7
+				}
+				{
+					id: "672D7DB6B5232354"
+					type: "item"
+					item: "silents_mechanisms:gold_chunks"
+					count: 5
+				}
+				{
+					id: "604E8D54320B350F"
+					type: "item"
+					item: "silents_mechanisms:zinc_chunks"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 3.5d
+			dependencies: ["509B50B05C9BEB8E"]
+			id: "59D79DF7B2AA9E4D"
+			tasks: [{
+				id: "5745E0C9ED074C46"
+				type: "item"
+				item: "silents_mechanisms:processing_speed_upgrade"
+			}]
+			rewards: [
+				{
+					id: "250D38A41C81125F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7CDE3242944C4D6A"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "6AB5D33BFCBE9F99"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 13.5d
+			y: 4.5d
+			dependencies: ["509B50B05C9BEB8E"]
+			id: "5837F99AB7FA6ADB"
+			tasks: [{
+				id: "39308E6F94A030D3"
+				type: "item"
+				item: "silents_mechanisms:output_chance_upgrade"
+			}]
+			rewards: [
+				{
+					id: "6AFE7DF21D946E6B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "657FFF647296064F"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "25BAB0BB3C03BFF1"
+					type: "item"
+					item: "silents_mechanisms:zombie_leather"
+					count: 3
+				}
+				{
+					id: "002E3EAB2076A9BB"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: 4.5d
+			dependencies: ["509B50B05C9BEB8E"]
+			id: "2558F0C34A1B319C"
+			tasks: [{
+				id: "01A8F3C30BB1A8AC"
+				type: "item"
+				item: "silents_mechanisms:energy_capacity_upgrade"
+			}]
+			rewards: [
+				{
+					id: "053C52FE56448FE8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6C7045AC2A755653"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "206524CC5C78775F"
+					type: "item"
+					item: "silents_mechanisms:nickel_chunks"
+					count: 5
+				}
+				{
+					id: "4B2F824E81E4CC47"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 15.5d
+			y: 4.5d
+			dependencies: ["509B50B05C9BEB8E"]
+			id: "5C908F8C37499296"
+			tasks: [{
+				id: "77B8BECFDB774A31"
+				type: "item"
+				item: "silents_mechanisms:energy_efficiency_upgrade"
+			}]
+			rewards: [
+				{
+					id: "786DB3255A0C5A25"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "77A94862C7EB68CD"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "49870C3F155A5FEF"
+					type: "item"
+					item: "silents_mechanisms:bauxite_chunks"
+					count: 7
+				}
+				{
+					id: "05AA73E7E38B49D7"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 16.0d
+			y: 3.5d
+			dependencies: ["509B50B05C9BEB8E"]
+			id: "32A355F44A92A820"
+			tasks: [{
+				id: "18DCA35C1A111514"
+				type: "item"
+				item: "silents_mechanisms:range_upgrade"
+			}]
+			rewards: [
+				{
+					id: "0F30BE719756F84B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0719C65814970D17"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "16ED10797FAC93CC"
+					type: "item"
+					item: "silents_mechanisms:zombie_leather"
+					count: 3
+				}
+				{
+					id: "394A6EE182ACA152"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -0.5d
+			id: "5AB9E299F0074291"
+			tasks: [{
+				id: "1EAF630BF744FC45"
+				type: "item"
+				item: "simplewoodenpipes:oak_pipe"
+			}]
+			rewards: [{
+				id: "7B6787FE9BCD0E76"
+				type: "item"
+				item: "aquaculture:lockbox"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -1.5d
+			id: "6DB1ACFBD9597211"
+			tasks: [{
+				id: "3FA0362F4A9A1777"
+				type: "item"
+				item: "simplewoodenpipes:crimson_pipe"
+			}]
+			rewards: [{
+				id: "694940F113EF41E7"
+				type: "item"
+				item: "aquaculture:lockbox"
+			}]
+		}
+	]
+}

@@ -1,0 +1,1287 @@
+{
+	id: "1D0517C3BEA06389"
+	group: ""
+	order_index: 3
+	filename: "nether_exploration"
+	title: "Nether Exploration"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.5d
+			y: 1.0d
+			id: "2180E83A0BF99108"
+			tasks: [{
+				id: "3D5B32B2C0AF1A78"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [
+				{
+					id: "717522BAE4B4E0C0"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					random_bonus: 10
+				}
+				{
+					id: "3C7E5B828F4C583E"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_leaping"
+						}
+					}
+				}
+				{
+					id: "43D736688F1921D7"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -0.5d
+			dependencies: ["38D6932079FC5877"]
+			id: "487EE12A34EF9E23"
+			tasks: [{
+				id: "76ECB8DFCB6D3229"
+				type: "item"
+				item: "quark:soul_sandstone"
+			}]
+			rewards: [
+				{
+					id: "5E7F1B63FC92E4F5"
+					type: "item"
+					item: "minecraft:glowstone_dust"
+					random_bonus: 9
+				}
+				{
+					id: "30DD90475F80E3A3"
+					type: "item"
+					item: "minecraft:paper"
+					random_bonus: 5
+				}
+				{
+					id: "5F3BBE58749408E4"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+				}
+				{
+					id: "288FAD7EF4492A9C"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 0.5d
+			dependencies: ["2180E83A0BF99108"]
+			id: "38D6932079FC5877"
+			tasks: [{
+				id: "26C4A23F14C93AFC"
+				type: "item"
+				item: "minecraft:soul_sand"
+			}]
+			rewards: [{
+				id: "25B66EB811405401"
+				type: "item"
+				item: "minecraft:gold_ingot"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.5d
+			dependencies: ["38D6932079FC5877"]
+			id: "3DA96A5F46314782"
+			tasks: [{
+				id: "7922F8A1DB334191"
+				type: "item"
+				item: "decorative_blocks:soul_brazier"
+			}]
+			rewards: [
+				{
+					id: "5E4969CCEE31C2CA"
+					type: "item"
+					item: "minecraft:redstone"
+					random_bonus: 3
+				}
+				{
+					id: "7AE86AF293798C2A"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					random_bonus: 7
+				}
+				{
+					id: "3D3B49906BE092FD"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			dependencies: ["287AA5F2913FF7BA"]
+			id: "7C88DB14EC430EEE"
+			tasks: [{
+				id: "59910CE65D0A274B"
+				type: "item"
+				item: "minecraft:soul_lantern"
+			}]
+			rewards: [
+				{
+					id: "30247F6E0360C7F5"
+					type: "item"
+					item: "minecraft:redstone"
+					random_bonus: 5
+				}
+				{
+					id: "04C86A11023295AF"
+					type: "item"
+					item: "minecraft:paper"
+					random_bonus: 8
+				}
+				{
+					id: "7D1CDD038DB898B3"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 3.5d
+			dependencies: ["287AA5F2913FF7BA"]
+			id: "18A396FBC15B57BD"
+			tasks: [{
+				id: "38CFD59EFD5D6081"
+				type: "item"
+				item: "supplementaries:sconce_soul"
+			}]
+			rewards: [
+				{
+					id: "708F69656FED46B4"
+					type: "item"
+					item: "minecraft:glowstone_dust"
+					random_bonus: 5
+				}
+				{
+					id: "725FB9F74F0B7CFB"
+					type: "item"
+					item: "minecraft:gunpowder"
+					random_bonus: 7
+				}
+				{
+					id: "24BC8685B1928CFA"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			dependencies: ["38D6932079FC5877"]
+			id: "287AA5F2913FF7BA"
+			tasks: [{
+				id: "37E0BCBB5D0B268F"
+				type: "item"
+				item: "minecraft:soul_torch"
+			}]
+			rewards: [
+				{
+					id: "2EE69A84937F91C0"
+					type: "item"
+					item: "minecraft:ender_pearl"
+				}
+				{
+					id: "0588DF1A87592226"
+					type: "item"
+					item: "aquaculture:box"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 2.0d
+			dependencies: ["38D6932079FC5877"]
+			id: "7A3A6048AD1D79B9"
+			tasks: [{
+				id: "03B739D22DF23DF3"
+				type: "item"
+				item: "extlights:light_soulbrazier_stand_iron"
+			}]
+			rewards: [
+				{
+					id: "29BED1CEADAD47D7"
+					type: "item"
+					item: "minecraft:redstone"
+					random_bonus: 8
+				}
+				{
+					id: "4F563CB752C5ED08"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					random_bonus: 9
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			dependencies: ["38D6932079FC5877"]
+			id: "783E069728BC314B"
+			tasks: [{
+				id: "7145F111FA8B9306"
+				type: "item"
+				item: "buzzier_bees:soul_candle"
+			}]
+			rewards: [
+				{
+					id: "14BBBB6F392DCE36"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					random_bonus: 8
+				}
+				{
+					id: "3FB0E182A2D7362A"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					random_bonus: 17
+				}
+				{
+					id: "2D905AC5DA16C535"
+					type: "item"
+					item: "aquaculture:box"
+				}
+				{
+					id: "6A0788401F8A5DF0"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 3.5d
+			dependencies: ["2180E83A0BF99108"]
+			id: "3A874C0C28B98BF8"
+			tasks: [{
+				id: "010FC3931AFA3B6F"
+				type: "item"
+				item: "minecraft:crimson_stem"
+			}]
+			rewards: [{
+				id: "1D020E124B4BEF57"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			dependencies: ["3A874C0C28B98BF8"]
+			id: "62E4B0123943B783"
+			tasks: [{
+				id: "3CCAEF914E36E30F"
+				type: "item"
+				item: "floormats:connected/nether/connected_gilded_crimson_stem"
+			}]
+			rewards: [
+				{
+					id: "1300091DDCAEEC20"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					random_bonus: 15
+				}
+				{
+					id: "6CE9285C6C726929"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					random_bonus: 5
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 4.0d
+			dependencies: ["62E4B0123943B783"]
+			id: "63CFB8E8AD0FDE11"
+			tasks: [{
+				id: "0D90E7D4028D988C"
+				type: "item"
+				item: "floormats:nether/crimson_stem/gilded_crimson_stem_floormat_item"
+			}]
+			rewards: [
+				{
+					id: "563E3810FDE10055"
+					type: "item"
+					item: "charm:netherite_nugget"
+				}
+				{
+					id: "6DA0D84DEE646DA1"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 4.5d
+			dependencies: ["3A874C0C28B98BF8"]
+			id: "4122C33D384CF98D"
+			tasks: [{
+				id: "4CB3FDE433ECFB90"
+				type: "item"
+				item: "floormats:connected/nether/connected_crimson_stem"
+			}]
+			rewards: [
+				{
+					id: "0DABB5DB54DEA387"
+					type: "item"
+					item: "minecraft:redstone"
+					random_bonus: 8
+				}
+				{
+					id: "3BD9AA923C8C4229"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 5.0d
+			dependencies: ["4122C33D384CF98D"]
+			id: "58C1E427CE211EDD"
+			tasks: [{
+				id: "77B6691269E26AF3"
+				type: "item"
+				item: "floormats:nether/crimson_stem/crimson_stem_floormat_item"
+			}]
+			rewards: [
+				{
+					id: "7CDC81B06A4F60B9"
+					type: "item"
+					item: "charm:netherite_nugget"
+					random_bonus: 1
+				}
+				{
+					id: "542B83805C103970"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 5.5d
+			dependencies: ["3A874C0C28B98BF8"]
+			id: "38903A79151C1FEF"
+			tasks: [{
+				id: "16932E675F2255B1"
+				type: "item"
+				item: "embellishcraft:crimson_fancy_chest"
+			}]
+			rewards: [
+				{
+					id: "68C04130463C2072"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					random_bonus: 8
+				}
+				{
+					id: "037D99B0859CCC0E"
+					type: "item"
+					item: "minecraft:gunpowder"
+					random_bonus: 2
+				}
+				{
+					id: "02926295CC7E1C48"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 5.5d
+			dependencies: ["3A874C0C28B98BF8"]
+			id: "3AF642F4F8C8AE22"
+			tasks: [{
+				id: "165CBE7F44F86BD2"
+				type: "item"
+				item: "mcwdoors:crimson_mystic_door"
+			}]
+			rewards: [
+				{
+					id: "024344AB4398B0DB"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					random_bonus: 8
+				}
+				{
+					id: "1119111C293834D8"
+					type: "item"
+					item: "minecraft:slime_ball"
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 5.5d
+			dependencies: ["3A874C0C28B98BF8"]
+			id: "5ED2E249484F0293"
+			tasks: [{
+				id: "455AEED2BBBAAEF7"
+				type: "item"
+				item: "supplementaries:hanging_sign_crimson"
+			}]
+			rewards: [
+				{
+					id: "70D16BD79FAF5D24"
+					type: "item"
+					item: "minecraft:paper"
+					random_bonus: 4
+				}
+				{
+					id: "66CDE3A88776F036"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					random_bonus: 8
+				}
+				{
+					id: "523FBB56C0771936"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:fire_resistance"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 6.5d
+			dependencies: ["3A874C0C28B98BF8"]
+			id: "603EC114C6A2D0EB"
+			tasks: [{
+				id: "41A66FC5910AC355"
+				type: "item"
+				item: "quark:crimson_ladder"
+			}]
+			rewards: [
+				{
+					id: "04A0C653DEBA34AA"
+					type: "item"
+					item: "minecraft:paper"
+					random_bonus: 4
+				}
+				{
+					id: "7EEF26833CCD0415"
+					type: "item"
+					item: "minecraft:ender_pearl"
+				}
+				{
+					id: "1B0B24F860F0534F"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 4.5d
+			dependencies: ["3A874C0C28B98BF8"]
+			id: "2CE0CA9472EA93B3"
+			tasks: [{
+				id: "0A7ADB0BC7B63CE8"
+				type: "item"
+				item: "quark:crimson_post"
+			}]
+			rewards: [
+				{
+					id: "4DA438C23D65B7BB"
+					type: "item"
+					item: "minecraft:gold_ingot"
+				}
+				{
+					id: "51EA8E9CC35BB39C"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:fire_resistance"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			dependencies: ["399D0F4FA424B5A4"]
+			id: "6B2A287DAD092F9D"
+			tasks: [{
+				id: "6D5571A0D8229608"
+				type: "item"
+				item: "minecraft:crimson_fungus"
+			}]
+			rewards: [
+				{
+					id: "69B56B0D8DDECE00"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "1696187BFFC02FA0"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "6C91D8BCA9AF77ED"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			dependencies: ["2180E83A0BF99108"]
+			id: "399D0F4FA424B5A4"
+			tasks: [{
+				id: "434970DB0E6FFA49"
+				type: "item"
+				item: "minecraft:crimson_nylium"
+			}]
+			rewards: [
+				{
+					id: "29AEA0F2A6CEDF19"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "7A53463D52B96FB8"
+					type: "item"
+					item: "minecraft:ink_sac"
+				}
+				{
+					id: "06B734CEC247F1E7"
+					type: "item"
+					item: "aquaculture:box"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 2.5d
+			dependencies: ["2180E83A0BF99108"]
+			id: "536B521F13679850"
+			tasks: [{
+				id: "10C1474929C0C813"
+				type: "item"
+				item: "minecraft:warped_stem"
+			}]
+			rewards: [{
+				id: "60F1882D2030BC3E"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.5d
+			dependencies: ["536B521F13679850"]
+			id: "40A34660A26BB44F"
+			tasks: [{
+				id: "1BC3510879D1728B"
+				type: "item"
+				item: "floormats:connected/nether/connected_gilded_warped_stem"
+			}]
+			rewards: [
+				{
+					id: "6B87399F1A2F26D8"
+					type: "item"
+					item: "minecraft:glowstone_dust"
+					random_bonus: 4
+				}
+				{
+					id: "4A8B9467CE8CA25E"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					random_bonus: 8
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			dependencies: ["40A34660A26BB44F"]
+			id: "704CD2C50260782F"
+			tasks: [{
+				id: "457C931D7727963E"
+				type: "item"
+				item: "floormats:nether/warped_stem/gilded_warped_stem_floormat_item"
+			}]
+			rewards: [{
+				id: "406FBD8D66B5D928"
+				type: "item"
+				item: "minecraft:gold_ingot"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			dependencies: ["536B521F13679850"]
+			id: "2B32BE7E83266F81"
+			tasks: [{
+				id: "3B259D2E0B2DD716"
+				type: "item"
+				item: "floormats:connected/nether/connected_warped_stem"
+			}]
+			rewards: [
+				{
+					id: "03218D916D12F3CD"
+					type: "item"
+					item: "minecraft:paper"
+					random_bonus: 3
+				}
+				{
+					id: "1D74B21A995479F7"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					random_bonus: 8
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 5.5d
+			dependencies: ["2B32BE7E83266F81"]
+			id: "79092A083DA32337"
+			tasks: [{
+				id: "4B37E6F898CD2F8C"
+				type: "item"
+				item: "floormats:nether/warped_stem/warped_stem_floormat_item"
+			}]
+			rewards: [
+				{
+					id: "35DCE6DA1A8EFA9C"
+					type: "item"
+					item: "minecraft:gold_ingot"
+				}
+				{
+					id: "35C5062658C145CE"
+					type: "item"
+					item: "aquaculture:box"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 4.0d
+			dependencies: ["536B521F13679850"]
+			id: "0A92A62C33365385"
+			tasks: [{
+				id: "008EA66BFFE400FC"
+				type: "item"
+				item: "charm:warped_bookcase"
+			}]
+			rewards: [
+				{
+					id: "6F61B3F79F8A1CDC"
+					type: "item"
+					item: "minecraft:slime_ball"
+					random_bonus: 7
+				}
+				{
+					id: "5446EC2304D23CC8"
+					type: "item"
+					item: "aquaculture:box"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 5.5d
+			dependencies: ["536B521F13679850"]
+			id: "607F20169BA0A167"
+			tasks: [{
+				id: "1E2475AA5C8A4D52"
+				type: "item"
+				item: "embellishcraft:warped_fancy_chest"
+			}]
+			rewards: [
+				{
+					id: "053C97CE00831116"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					random_bonus: 7
+				}
+				{
+					id: "77BB7305571C739F"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					random_bonus: 2
+				}
+				{
+					id: "64D93151649871B6"
+					type: "item"
+					item: "minecraft:ink_sac"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 3.5d
+			dependencies: ["536B521F13679850"]
+			id: "6DD458C8CFFED024"
+			tasks: [{
+				id: "56CE7765B87AE944"
+				type: "item"
+				item: "nethers_delight:warped_moldy_meat"
+			}]
+			rewards: [
+				{
+					id: "0E8494A3C442D344"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					random_bonus: 8
+				}
+				{
+					id: "5C03051D13DC3E84"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					random_bonus: 2
+				}
+				{
+					id: "7B85FDEFC648532A"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+				{
+					id: "7ED20A3330243511"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "72FC3999A80F49B4"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			dependencies: ["536B521F13679850"]
+			id: "75635526000CC549"
+			tasks: [{
+				id: "6F6B8E0A43CB7B59"
+				type: "item"
+				item: "quark:warped_post"
+			}]
+			rewards: [
+				{
+					id: "1E1D409BF5398E5D"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					random_bonus: 2
+				}
+				{
+					id: "6034507FFAA1F760"
+					type: "item"
+					item: "minecraft:gold_ingot"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 4.5d
+			dependencies: ["536B521F13679850"]
+			id: "39D411EBF412394A"
+			tasks: [{
+				id: "0F1EEF1EA840B4D9"
+				type: "item"
+				item: {
+					id: "minecraft:warped_fungus_on_a_stick"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6BB1871A6D604B80"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					random_bonus: 8
+				}
+				{
+					id: "34DE9B231AE35807"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					random_bonus: 7
+				}
+				{
+					id: "77EADC0CD27AA7F0"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 6.5d
+			dependencies: ["536B521F13679850"]
+			id: "5FC755E59765BED3"
+			tasks: [{
+				id: "5C31F018AE0994CF"
+				type: "item"
+				item: "charm:warped_barrel"
+			}]
+			rewards: [
+				{
+					id: "7EF7B5F902B13F7D"
+					type: "item"
+					item: "minecraft:redstone"
+					random_bonus: 5
+				}
+				{
+					id: "1E19FDD334CE938A"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					random_bonus: 7
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["2180E83A0BF99108"]
+			id: "2EA5028B44B954C5"
+			tasks: [{
+				id: "776956F9B3950832"
+				type: "item"
+				item: "minecraft:shroomlight"
+			}]
+			rewards: [
+				{
+					id: "68FB8B88F3EED9F6"
+					type: "item"
+					item: "minecraft:ender_pearl"
+				}
+				{
+					id: "7D94131769D38165"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					random_bonus: 5
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			dependencies: ["2EA5028B44B954C5"]
+			id: "234390770A83B9DF"
+			tasks: [{
+				id: "0E801DC15DD330AD"
+				type: "item"
+				item: "supplementaries:crimson_lantern"
+			}]
+			rewards: [
+				{
+					id: "0416FE58DC7EAA5F"
+					type: "item"
+					item: "minecraft:paper"
+					random_bonus: 8
+				}
+				{
+					id: "008AB71E7A7E8B19"
+					type: "item"
+					item: "minecraft:slime_ball"
+					random_bonus: 3
+				}
+				{
+					id: "3A9F513F5B993A21"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+				{
+					id: "3B10720D92A6DCD4"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			dependencies: ["2EA5028B44B954C5"]
+			id: "07C24118E9876E3E"
+			tasks: [{
+				id: "7CE6EDBF605ACAC2"
+				type: "item"
+				item: "extlights:light_lantern_shroomlight"
+			}]
+			rewards: [
+				{
+					id: "3FC9ADDE6C0CE6AE"
+					type: "item"
+					item: "minecraft:glowstone_dust"
+					random_bonus: 7
+				}
+				{
+					id: "44E291864C1BDC41"
+					type: "item"
+					item: "minecraft:slime_ball"
+					random_bonus: 6
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["7BF4F7FA6F5489B8"]
+			id: "13BFF6FAB57163E2"
+			tasks: [{
+				id: "0E47D62D0CB47D9A"
+				type: "item"
+				item: "quark:charred_nether_bricks"
+			}]
+			rewards: [
+				{
+					id: "42FAA97DEF9AC8B3"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					random_bonus: 7
+				}
+				{
+					id: "49E7B4F5F1F5B00E"
+					type: "item"
+					item: "minecraft:ink_sac"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			dependencies: ["7BF4F7FA6F5489B8"]
+			id: "1D9B2263E9696EDF"
+			tasks: [{
+				id: "1542DDB5BD42E5F4"
+				type: "item"
+				item: "quark:blue_nether_bricks"
+			}]
+			rewards: [{
+				id: "77E90C41502BF81B"
+				type: "item"
+				item: "minecraft:slime_ball"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			dependencies: ["7BF4F7FA6F5489B8"]
+			id: "65B686EB9BA517F4"
+			tasks: [{
+				id: "612D3213737DA7A4"
+				type: "item"
+				item: "minecraft:red_nether_bricks"
+			}]
+			rewards: [
+				{
+					id: "4DD3C0157B05FB9A"
+					type: "item"
+					item: "minecraft:redstone"
+					random_bonus: 5
+				}
+				{
+					id: "6087CE187EB97FA9"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+				{
+					id: "61282956F249DDF1"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["2180E83A0BF99108"]
+			id: "1579F030A62BD23B"
+			tasks: [{
+				id: "02247DDCF9983FB9"
+				type: "item"
+				item: "minecraft:blackstone"
+			}]
+			rewards: [{
+				id: "10E2AF407A28DE7C"
+				type: "item"
+				item: "minecraft:glowstone_dust"
+				random_bonus: 5
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.0d
+			dependencies: ["1579F030A62BD23B"]
+			id: "758DB0E456768CA8"
+			tasks: [{
+				id: "54981FEDDD097D2A"
+				type: "item"
+				item: "minecraft:polished_blackstone"
+			}]
+			rewards: [
+				{
+					id: "1049524E44880884"
+					type: "item"
+					item: "minecraft:paper"
+					random_bonus: 2
+				}
+				{
+					id: "2EB57C09190597D3"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					random_bonus: 3
+				}
+				{
+					id: "7547FD2AD0486847"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -1.0d
+			dependencies: ["1579F030A62BD23B"]
+			id: "7ED8D6C5432CC91E"
+			tasks: [{
+				id: "1094DD2D0251DA0F"
+				type: "item"
+				item: "quark:weeping_blackstone_bricks"
+			}]
+			rewards: [
+				{
+					id: "6973D185E9480764"
+					type: "item"
+					item: "minecraft:redstone"
+					random_bonus: 5
+				}
+				{
+					id: "5D4FECD6149C6682"
+					type: "item"
+					item: "minecraft:ink_sac"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -0.5d
+			dependencies: ["1579F030A62BD23B"]
+			id: "0073633B4F7494CA"
+			tasks: [{
+				id: "182E181E83EEF902"
+				type: "item"
+				item: "quark:twisted_blackstone_bricks"
+			}]
+			rewards: [
+				{
+					id: "28206DF4011050B2"
+					type: "item"
+					item: "minecraft:netherite_scrap"
+				}
+				{
+					id: "16B101F0E46791B2"
+					type: "item"
+					item: "minecraft:ink_sac"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			dependencies: ["1579F030A62BD23B"]
+			id: "2E525D0F8BB84C24"
+			tasks: [{
+				id: "0E6D5E9689BFA134"
+				type: "item"
+				item: "supplementaries:blackstone_tile"
+			}]
+			rewards: [
+				{
+					id: "0843A6483357B22F"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					random_bonus: 9
+				}
+				{
+					id: "1040CE36715FE633"
+					type: "item"
+					item: "aquaculture:box"
+				}
+				{
+					id: "1B020AF16A08FAAC"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			dependencies: ["1579F030A62BD23B"]
+			id: "2134AF23429FA6E2"
+			tasks: [{
+				id: "7EA164EBF3CC075C"
+				type: "item"
+				item: "minecraft:gilded_blackstone"
+			}]
+			rewards: [
+				{
+					id: "19C4BC460A893359"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					random_bonus: 2
+				}
+				{
+					id: "7FBAA5A7E37BBA34"
+					type: "item"
+					item: "minecraft:glowstone_dust"
+					random_bonus: 5
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			dependencies: ["1579F030A62BD23B"]
+			id: "6B037E9A9E9854DC"
+			tasks: [{
+				id: "130F83AD5913C304"
+				type: "item"
+				item: "betterendforge:blackstone_lantern"
+			}]
+			rewards: [{
+				id: "1FED777DF71C206E"
+				type: "item"
+				item: "charm:netherite_nugget"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["2180E83A0BF99108"]
+			id: "7BF4F7FA6F5489B8"
+			tasks: [{
+				id: "2E47DAEA9419EECF"
+				type: "item"
+				item: "minecraft:nether_bricks"
+			}]
+			rewards: [
+				{
+					id: "71888375E4A0E825"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					random_bonus: 8
+				}
+				{
+					id: "42BCFF63CAD0421F"
+					type: "item"
+					item: "minecraft:glowstone_dust"
+					random_bonus: 5
+				}
+				{
+					id: "0998A9C6AAE2B757"
+					type: "item"
+					item: "aquaculture:box"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			dependencies: ["2180E83A0BF99108"]
+			id: "7302E3D9693F151A"
+			tasks: [{
+				id: "5587B31A70FD1DB9"
+				type: "item"
+				item: "minecraft:basalt"
+			}]
+			rewards: [
+				{
+					id: "002C694BB905C989"
+					type: "item"
+					item: "minecraft:gunpowder"
+					random_bonus: 5
+				}
+				{
+					id: "44A14ED550752381"
+					type: "item"
+					item: "minecraft:redstone"
+					random_bonus: 8
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			dependencies: ["7302E3D9693F151A"]
+			id: "1184F04280AB950F"
+			tasks: [{
+				id: "5B406A383510EDBF"
+				type: "item"
+				item: "minecraft:polished_basalt"
+			}]
+			rewards: [
+				{
+					id: "76935DF0E267F28C"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					random_bonus: 2
+				}
+				{
+					id: "3203377AC3696BA2"
+					type: "item"
+					item: "minecraft:paper"
+					random_bonus: 5
+				}
+				{
+					id: "3113D9533AACF7E8"
+					type: "item"
+					item: "minecraft:ink_sac"
+				}
+			]
+		}
+	]
+}

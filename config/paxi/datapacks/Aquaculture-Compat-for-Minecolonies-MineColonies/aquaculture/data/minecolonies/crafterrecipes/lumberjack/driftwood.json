@@ -1,0 +1,14 @@
+{
+  "type" : "recipe",
+  "crafter": "lumberjack_custom",
+  "inputs": [
+    {
+        "item" : "aquaculture:driftwood",
+        "count": 1
+    }
+  ],
+  "result": "minecraft:oak_planks",
+  "count": 4,
+  "min-building-level": 1,
+  "show-tooltip": true
+}

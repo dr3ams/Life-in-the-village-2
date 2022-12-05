@@ -1,0 +1,2487 @@
+{
+	id: "0000000000000056"
+	group: ""
+	order_index: 6
+	filename: "somedecorationrequired"
+	title: "Some Decorations"
+	icon: "extlights:light_lamp_paper_cyan"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -6.0d
+			y: -1.0d
+			dependencies: ["0000000000000059"]
+			id: "0000000000000057"
+			tasks: [{
+				id: "6B53CDDE859988DE"
+				type: "item"
+				item: "supplementaries:sconce"
+			}]
+			rewards: [
+				{
+					id: "00000000000003A7"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "00000000000003E3"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "000000000000041F"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "000000000000045B"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "00469DC09A23F4A6"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			id: "0000000000000059"
+			tasks: [{
+				id: "000000000000005A"
+				type: "item"
+				item: "minecraft:torch"
+			}]
+			rewards: [
+				{
+					id: "00000000000003A8"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "00000000000003E4"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "0000000000000420"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "000000000000045C"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -1.5d
+			dependencies: ["0000000000000059"]
+			id: "000000000000005B"
+			tasks: [{
+				id: "14F4A1D05B69C8E3"
+				type: "item"
+				title: "Any #buzzier_bees:candles"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "buzzier_bees:candles"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000003A9"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "00000000000003E5"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "0000000000000421"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "000000000000045D"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "18AF8DD5316C9B76"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			dependencies: ["0000000000000059"]
+			id: "000000000000005D"
+			tasks: [{
+				id: "000000000000005E"
+				type: "item"
+				item: "quark:paper_lantern"
+			}]
+			rewards: [
+				{
+					id: "00000000000003AA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "00000000000003E6"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "0000000000000422"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "000000000000045E"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 0.0d
+			dependencies: ["000000000000005D"]
+			id: "000000000000005F"
+			tasks: [{
+				id: "0000000000000060"
+				type: "item"
+				item: "quark:paper_lantern_sakura"
+			}]
+			rewards: [
+				{
+					id: "00000000000001C7"
+					type: "item"
+					item: "minecraft:sea_pickle"
+				}
+				{
+					id: "00000000000003AB"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "00000000000003E7"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "0000000000000423"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "000000000000045F"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "661BE8E30B213F80"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 5.0d
+			dependencies: ["000000000000007E"]
+			id: "0000000000000074"
+			tasks: [{
+				id: "0000000000000075"
+				type: "item"
+				item: {
+					id: "fairylights:hanging_lights"
+					Count: 1b
+					tag: {
+						string: "fairylights:black_string"
+						pattern: [{
+							id: "fairylights:fairy_light"
+							Count: 1
+							tag: {
+								color: 16383998
+							}
+						}]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "000000000000026B"
+					type: "item"
+					item: "minecraft:cyan_dye"
+					count: 4
+				}
+				{
+					id: "00000000000003AC"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "00000000000003E8"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "0000000000000424"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "62D21A0C68E92BB7"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 3.5d
+			dependencies: ["000000000000007E"]
+			id: "0000000000000076"
+			tasks: [{
+				id: "0000000000000077"
+				type: "item"
+				item: {
+					id: "fairylights:tinsel"
+					Count: 1b
+					tag: {
+						color: 16383998
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000003AD"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "00000000000003E9"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "0000000000000425"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "6A3900EBD5A78F72"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 5.0d
+			dependencies: ["000000000000007E"]
+			id: "0000000000000078"
+			tasks: [{
+				id: "0000000000000079"
+				type: "item"
+				item: {
+					id: "fairylights:pennant_bunting"
+					Count: 1b
+					tag: {
+						pattern: [{
+							id: "fairylights:triangle_pennant"
+							Count: 1
+							tag: {
+								color: 16383998
+							}
+						}]
+						text: {
+							value: "{\"text\":\"\"}"
+						}
+						color: 16383998
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "000000000000026D"
+					type: "item"
+					item: "minecraft:lime_dye"
+					count: 4
+				}
+				{
+					id: "00000000000003AE"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "00000000000003EA"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "0000000000000426"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "05C2AE59522212AA"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 3.5d
+			dependencies: ["000000000000007E"]
+			id: "000000000000007A"
+			tasks: [{
+				id: "000000000000007B"
+				type: "item"
+				item: "fairylights:garland"
+			}]
+			rewards: [
+				{
+					id: "000000000000026C"
+					type: "item"
+					item: "minecraft:green_dye"
+					count: 4
+				}
+				{
+					id: "00000000000003AF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "00000000000003EB"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "0000000000000427"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "0000000000000463"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 6.5d
+			dependencies: ["000000000000007E"]
+			id: "000000000000007C"
+			tasks: [{
+				id: "000000000000007D"
+				type: "item"
+				item: {
+					id: "fairylights:letter_bunting"
+					Count: 1b
+					tag: {
+						text: {
+							value: "{\"text\":\"\"}"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000003B0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "00000000000003EC"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "0000000000000428"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "0000000000000464"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			id: "000000000000007E"
+			tasks: [{
+				id: "000000000000007F"
+				type: "checkmark"
+				title: "Fairy Lights"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 4.0d
+			dependencies: ["0000000000000074"]
+			id: "0000000000000080"
+			tasks: [{
+				id: "0000000000000081"
+				type: "item"
+				item: {
+					id: "fairylights:paper_lantern"
+					Count: 1b
+					tag: {
+						color: 11546150
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000003B2"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "00000000000003EE"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "000000000000042A"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "0000000000000466"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "30D8F4E5B283BF60"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 6.5d
+			dependencies: ["0000000000000074"]
+			id: "0000000000000082"
+			tasks: [{
+				id: "0000000000000083"
+				type: "item"
+				item: {
+					id: "fairylights:candle_lantern_light"
+					Count: 1b
+					tag: {
+						color: 13061821
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000003B3"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "00000000000003EF"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "000000000000042B"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "0000000000000467"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "2B5859BF7246EEA9"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 6.5d
+			dependencies: ["0000000000000074"]
+			id: "0000000000000084"
+			tasks: [{
+				id: "0000000000000085"
+				type: "item"
+				item: {
+					id: "fairylights:jack_o_lantern"
+					Count: 1b
+					tag: {
+						color: 16351261
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000003B4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "00000000000003F0"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "000000000000042C"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "0000000000000468"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "66DE5088E250985A"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 3.5d
+			dependencies: ["0000000000000074"]
+			id: "0000000000000086"
+			tasks: [{
+				id: "0000000000000087"
+				type: "item"
+				item: {
+					id: "fairylights:snowflake_light"
+					Count: 1b
+					tag: {
+						color: 3847130
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000003B5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "00000000000003F1"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "000000000000042D"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "0000000000000469"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "47E4F5875A0F8468"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 3.5d
+			dependencies: ["0000000000000074"]
+			id: "0000000000000088"
+			tasks: [{
+				id: "0000000000000089"
+				type: "item"
+				item: {
+					id: "fairylights:oil_lantern_light"
+					Count: 1b
+					tag: {
+						color: 6192150
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000003B6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "00000000000003F2"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "000000000000042E"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "000000000000046A"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "6CF9E47CC08380A8"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 5.0d
+			dependencies: ["0000000000000074"]
+			id: "000000000000008A"
+			tasks: [{
+				id: "000000000000008B"
+				type: "item"
+				item: {
+					id: "fairylights:icicle_lights"
+					Count: 1b
+					tag: {
+						color: 13061821
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000003B7"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "00000000000003F3"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "000000000000042F"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "000000000000046B"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "739E753ABE4F1CBE"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 4.5d
+			dependencies: ["0000000000000074"]
+			id: "000000000000008C"
+			tasks: [{
+				id: "000000000000008D"
+				type: "item"
+				item: "fairylights:candle_lantern"
+			}]
+			rewards: [
+				{
+					id: "00000000000003B8"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "00000000000003F4"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "0000000000000430"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "000000000000046C"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "6D9EC10F9129E5AF"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 6.0d
+			dependencies: ["0000000000000074"]
+			id: "000000000000008E"
+			tasks: [{
+				id: "000000000000008F"
+				type: "item"
+				item: {
+					id: "fairylights:oil_lantern_light"
+					Count: 1b
+					tag: {
+						color: 16383998
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000003B9"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "00000000000003F5"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "0000000000000431"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "000000000000046D"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "75D3BE7898ADD1F6"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 5.5d
+			dependencies: ["0000000000000074"]
+			id: "0000000000000090"
+			tasks: [{
+				id: "0000000000000091"
+				type: "item"
+				item: {
+					id: "fairylights:orb_lantern"
+					Count: 1b
+					tag: {
+						color: 16701501
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000003BA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "00000000000003F6"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "0000000000000432"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "000000000000046E"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "7B664B39D34A5160"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 5.5d
+			dependencies: ["0000000000000078"]
+			id: "0000000000000092"
+			tasks: [{
+				id: "0000000000000093"
+				type: "item"
+				item: {
+					id: "fairylights:triangle_pennant"
+					Count: 1b
+					tag: {
+						color: 16351261
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000003BB"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "00000000000003F7"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "0000000000000433"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "000000000000046F"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "57F3ED30DD69E22C"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 4.0d
+			dependencies: ["0000000000000078"]
+			id: "0000000000000094"
+			tasks: [{
+				id: "0000000000000095"
+				type: "item"
+				item: {
+					id: "fairylights:spearhead_pennant"
+					Count: 1b
+					tag: {
+						color: 16701501
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000003BC"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "00000000000003F8"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "0000000000000434"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "0000000000000470"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "59DC9F22F85D2AEA"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			dependencies: ["0000000000000078"]
+			id: "0000000000000096"
+			tasks: [{
+				id: "0000000000000097"
+				type: "item"
+				item: {
+					id: "fairylights:swallowtail_pennant"
+					Count: 1b
+					tag: {
+						color: 6192150
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000003BD"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "00000000000003F9"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "0000000000000435"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "0000000000000471"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "2C64FD3805AE7345"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 6.5d
+			dependencies: ["0000000000000078"]
+			id: "0000000000000098"
+			tasks: [{
+				id: "0000000000000099"
+				type: "item"
+				item: {
+					id: "fairylights:square_pennant"
+					Count: 1b
+					tag: {
+						color: 1481884
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000003BE"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "00000000000003FA"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "0000000000000436"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "0000000000000472"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "5175AA0069D00D67"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 1.5d
+			dependencies: ["0000000000000059"]
+			id: "000000000000009A"
+			tasks: [{
+				id: "000000000000009B"
+				type: "item"
+				item: "minecraft:lantern"
+			}]
+			rewards: [
+				{
+					id: "00000000000003BF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "00000000000003FB"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "0000000000000437"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "0000000000000473"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "38BC098B09A43D7D"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 1.0d
+			dependencies: ["0000000000000059"]
+			id: "000000000000009C"
+			tasks: [{
+				id: "000000000000009D"
+				type: "item"
+				item: "charm:gold_lantern"
+			}]
+			rewards: [
+				{
+					id: "00000000000003C0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "00000000000003FC"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "0000000000000438"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "0000000000000474"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "2C9F21B58C123B3E"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			dependencies: ["00000000000000A9"]
+			id: "000000000000009E"
+			tasks: [{
+				id: "000000000000009F"
+				type: "item"
+				item: "mcwbridges:stone_brick_bridge"
+			}]
+			rewards: [
+				{
+					id: "00000000000003C1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "00000000000003FD"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "0000000000000439"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "0000000000000475"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			dependencies: ["00000000000000A9"]
+			id: "00000000000000A1"
+			tasks: [{
+				id: "222F7A2606543BEC"
+				type: "item"
+				item: "mcwbridges:rope_birch_bridge"
+			}]
+			rewards: [
+				{
+					id: "00000000000003C2"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "00000000000003FE"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "000000000000043A"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "0000000000000476"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			dependencies: ["00000000000000A9"]
+			id: "0A4955409B6E6166"
+			tasks: [{
+				id: "00000000000000A5"
+				type: "item"
+				item: "mcwbridges:bamboo_bridge"
+			}]
+			rewards: [
+				{
+					id: "00000000000003C3"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "00000000000003FF"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "000000000000043B"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "0000000000000477"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			dependencies: ["00000000000000A9"]
+			id: "00000000000000A6"
+			tasks: [{
+				id: "00000000000000A7"
+				type: "item"
+				item: "mcwbridges:spruce_rail_bridge"
+			}]
+			rewards: [
+				{
+					id: "00000000000003C4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0000000000000400"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "000000000000043C"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "0000000000000478"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			id: "00000000000000A9"
+			tasks: [{
+				id: "00000000000000AA"
+				type: "checkmark"
+				title: "Bridges!"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			id: "2557FC64FA17C74E"
+			tasks: [{
+				id: "32783636AA3836CD"
+				type: "item"
+				item: "mcwroofs:rain_gutter"
+			}]
+			rewards: [
+				{
+					id: "0000000000000270"
+					type: "item"
+					item: "projectvibrantjourneys:aspen_door"
+				}
+				{
+					id: "00000000000003C6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0000000000000402"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "000000000000043E"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "000000000000047A"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -4.5d
+			id: "6D090464E0BCD190"
+			tasks: [{
+				id: "1FDD0E70200131C6"
+				type: "item"
+				item: "mcwfurnitures:cabinet_door"
+			}]
+			rewards: [
+				{
+					id: "00000000000003C9"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0000000000000405"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "0000000000000441"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "000000000000047D"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -5.0d
+			dependencies: ["2557FC64FA17C74E"]
+			id: "000000000000028C"
+			tasks: [
+				{
+					id: "000000000000028E"
+					type: "item"
+					item: "mcwroofs:gutter_middle"
+				}
+				{
+					id: "0000000000000290"
+					type: "item"
+					item: "mcwroofs:gutter_base"
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000003CD"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0000000000000409"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "0000000000000445"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "0000000000000481"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "1F4FF671DED575B2"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -6.0d
+			id: "0000000000000291"
+			tasks: [
+				{
+					id: "0000000000000292"
+					type: "item"
+					item: "mcwroofs:oak_roof"
+				}
+				{
+					id: "0000000000000293"
+					type: "item"
+					item: "mcwroofs:oak_attic_roof"
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000003CE"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "000000000000040A"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "0000000000000446"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "0000000000000482"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -6.0d
+			dependencies: ["2557FC64FA17C74E"]
+			id: "0000000000000294"
+			tasks: [{
+				id: "0000000000000295"
+				type: "item"
+				item: "mcwroofs:red_striped_awning"
+			}]
+			rewards: [
+				{
+					id: "00000000000003CF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "000000000000040B"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "0000000000000447"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "0000000000000483"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "60D72700BC29DB73"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -4.5d
+			id: "0000000000000296"
+			tasks: [{
+				id: "0000000000000297"
+				type: "item"
+				item: "extlights:blaze_tube"
+			}]
+			rewards: [
+				{
+					id: "00000000000003D0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "000000000000040C"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "0000000000000448"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "0000000000000484"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+			]
+		}
+		{
+			x: -4.257142857142846d
+			y: -3.0d
+			dependencies: ["0000000000000301"]
+			id: "0000000000000298"
+			tasks: [{
+				id: "0000000000000299"
+				type: "item"
+				item: "extlights:light_candleplate_iron"
+			}]
+			rewards: [
+				{
+					id: "00000000000003D1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "000000000000040D"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "0000000000000449"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "0000000000000485"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "4AF89289C6DA2E53"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -6.0d
+			dependencies: ["0000000000000296"]
+			id: "000000000000029C"
+			tasks: [{
+				id: "000000000000029D"
+				type: "item"
+				item: "extlights:light_modern_ground_panel_black"
+			}]
+			rewards: [
+				{
+					id: "00000000000003D3"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "000000000000040F"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "000000000000044B"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "0000000000000487"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "12986D0873A5885F"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			id: "000000000000029E"
+			tasks: [{
+				id: "000000000000029F"
+				type: "item"
+				item: "extlights:glowstone_bulb"
+			}]
+			rewards: [
+				{
+					id: "00000000000003D4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0000000000000410"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "000000000000044C"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "0000000000000488"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			dependencies: ["000000000000029E"]
+			id: "00000000000002A0"
+			tasks: [{
+				id: "00000000000002A1"
+				type: "item"
+				item: "extlights:light_lantern_bulb"
+			}]
+			rewards: [
+				{
+					id: "00000000000003D5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0000000000000411"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "000000000000044D"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "0000000000000489"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "4D1743EECDDABA9F"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			dependencies: ["000000000000029E"]
+			id: "00000000000002A2"
+			tasks: [{
+				id: "00000000000002A3"
+				type: "item"
+				item: "extlights:light_lamp_paper_red"
+			}]
+			rewards: [
+				{
+					id: "00000000000003D6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0000000000000412"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "000000000000044E"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "000000000000048A"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "22339F9CC3245D1C"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			dependencies: ["000000000000029E"]
+			id: "00000000000002A4"
+			tasks: [{
+				id: "00000000000002A5"
+				type: "item"
+				item: "extlights:light_lantern_caged"
+			}]
+			rewards: [
+				{
+					id: "00000000000003D7"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0000000000000413"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "000000000000044F"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "000000000000048B"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "67232E1A1E676C39"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -2.7571428571428456d
+			y: -3.0d
+			dependencies: ["0000000000000298"]
+			id: "00000000000002B0"
+			tasks: [{
+				id: "00000000000002B1"
+				type: "item"
+				item: "extlights:light_candle_support_iron"
+			}]
+			rewards: [
+				{
+					id: "00000000000003D8"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0000000000000414"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "0000000000000450"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "000000000000048C"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "28B96B186A1B9E6C"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -1.2571428571428456d
+			y: -3.0d
+			dependencies: ["00000000000002B0"]
+			id: "00000000000002B2"
+			tasks: [{
+				id: "00000000000002B3"
+				type: "item"
+				item: "extlights:light_candle_support_tall_iron"
+			}]
+			rewards: [
+				{
+					id: "00000000000003D9"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0000000000000415"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "0000000000000451"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "000000000000048D"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "418D28BF1F75A400"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 0.24285714285715443d
+			y: -3.0d
+			dependencies: ["00000000000002B2"]
+			id: "00000000000002B4"
+			tasks: [{
+				id: "00000000000002B5"
+				type: "item"
+				item: "extlights:light_candle_arm_two_iron"
+			}]
+			rewards: [
+				{
+					id: "00000000000003DA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0000000000000416"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "0000000000000452"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "000000000000048E"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "6A958B4A66A9A8BC"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 1.7428571428571544d
+			y: -3.0d
+			dependencies: ["00000000000002B4"]
+			id: "00000000000002B6"
+			tasks: [{
+				id: "00000000000002B7"
+				type: "item"
+				item: "extlights:light_candelabra_iron"
+			}]
+			rewards: [
+				{
+					id: "00000000000003DB"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0000000000000417"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "0000000000000453"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "000000000000048F"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "2640CD3F82AD8BAB"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -5.757142857142846d
+			y: -3.0d
+			id: "0000000000000301"
+			tasks: [{
+				id: "0000000000000302"
+				type: "item"
+				item: "extlights:wax_chunk"
+			}]
+			rewards: [
+				{
+					id: "00000000000003E0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "000000000000041C"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "0000000000000458"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "0000000000000494"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			dependencies: ["000000000000029E"]
+			id: "0000000000000303"
+			tasks: [{
+				id: "0000000000000304"
+				type: "item"
+				item: "extlights:light_lamp_paper_cyan"
+			}]
+			rewards: [
+				{
+					id: "00000000000003E1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "000000000000041D"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "0000000000000459"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "0000000000000495"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "5BD31D726E5366BF"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			dependencies: ["000000000000029E"]
+			id: "0000000000000305"
+			tasks: [{
+				id: "0000000000000306"
+				type: "item"
+				item: "extlights:light_lamp_bulb"
+			}]
+			rewards: [
+				{
+					id: "00000000000003E2"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "000000000000041E"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "000000000000045A"
+					type: "item"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "0000000000000496"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "5B4B166F2E5BADD0"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 2.5d
+			id: "289133175EA692FE"
+			tasks: [{
+				id: "59C06D747319DD1C"
+				type: "item"
+				item: "blockcarpentry:frameblock"
+			}]
+			rewards: [{
+				id: "290BDC3817CC2ABA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.5d
+			dependencies: ["289133175EA692FE"]
+			id: "3ABED164FB5F10A7"
+			tasks: [{
+				id: "18E5A67EBB2F9F77"
+				type: "item"
+				item: "blockcarpentry:frame_slab"
+			}]
+			rewards: [
+				{
+					id: "125612A76167AEDA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "000A0204DD2CD68F"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 2.5d
+			dependencies: ["3ABED164FB5F10A7"]
+			id: "740840E49E2980F9"
+			tasks: [{
+				id: "31D507926B49CBD0"
+				type: "item"
+				item: "blockcarpentry:frame_stairs"
+			}]
+			rewards: [
+				{
+					id: "008D1DD9669C1473"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "535DA171DF298ED3"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			dependencies: ["740840E49E2980F9"]
+			id: "0C3BE5BF82B61343"
+			tasks: [{
+				id: "25F8523E0E344F49"
+				type: "item"
+				item: "blockcarpentry:frame_door"
+			}]
+			rewards: [
+				{
+					id: "1A592A825C17DCD1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "47E4AD6273418B23"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			dependencies: ["0C3BE5BF82B61343"]
+			id: "794B1ABA2BB7B28D"
+			tasks: [{
+				id: "60423CC2D4B7F5BA"
+				type: "item"
+				item: "blockcarpentry:frame_fence"
+			}]
+			rewards: [
+				{
+					id: "4720B6D06CA79594"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6EF40FB46D57908B"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			dependencies: ["794B1ABA2BB7B28D"]
+			id: "7C14B09E107AD7DF"
+			tasks: [{
+				id: "7FFEBCB0AF15B9E0"
+				type: "item"
+				item: "blockcarpentry:frame_chest"
+			}]
+			rewards: [
+				{
+					id: "5306BBA54820891B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0D50A277715A82CD"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -6.0d
+			id: "042D5CD840C0E6A8"
+			tasks: [{
+				id: "67D1A9C0857A263A"
+				type: "item"
+				item: "embellishcraft:acacia_suspended_stairs"
+			}]
+			rewards: [
+				{
+					id: "24AC7313F6B1D8AA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_materials"
+						}
+					}
+				}
+				{
+					id: "4ECB3FDDDE2BF610"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -5.0d
+			id: "38CA413AE4E856E9"
+			tasks: [{
+				id: "56C1C87916BDD712"
+				type: "item"
+				item: "embellishcraft:brown_couch"
+			}]
+			rewards: [
+				{
+					id: "6F71871EF5BAF156"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_dyes"
+						}
+					}
+				}
+				{
+					id: "15E7610B84C1D7EE"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -4.0d
+			id: "0E7AC2A549C0A401"
+			tasks: [{
+				id: "5C85FC144990C17D"
+				type: "item"
+				item: "embellishcraft:oak_large_suspended_stairs"
+			}]
+			rewards: [
+				{
+					id: "2896121907B46595"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_mob_drops"
+						}
+					}
+				}
+				{
+					id: "49D299CBE3AABE48"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -3.0d
+			id: "14FAB1DA455D61F0"
+			tasks: [{
+				id: "7E138191360E7C02"
+				type: "item"
+				item: "embellishcraft:acacia_chair"
+			}]
+			rewards: [
+				{
+					id: "4822AD42C102099C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_materials"
+						}
+					}
+				}
+				{
+					id: "18CB33F638C82738"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -6.0d
+			id: "5DF98393C9F6A2E7"
+			tasks: [{
+				id: "31E2F29CDFC2898F"
+				type: "item"
+				item: "embellishcraft:jungle_terrace_chair"
+			}]
+			rewards: [
+				{
+					id: "2EE7E330F2AA4D08"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_dyes"
+						}
+					}
+				}
+				{
+					id: "0E02471A4A729686"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -5.0d
+			id: "3368307C8A30765B"
+			tasks: [{
+				id: "0972F8777822F0DE"
+				type: "item"
+				item: "embellishcraft:spruce_fancy_table"
+			}]
+			rewards: [
+				{
+					id: "03AFC3DA2A63B6E2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_mob_drops"
+						}
+					}
+				}
+				{
+					id: "615A38BDA5A00FBC"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -4.0d
+			id: "776399AE2036AADB"
+			tasks: [{
+				id: "3904242E24E2A11A"
+				type: "item"
+				item: "embellishcraft:birch_terrace_table"
+			}]
+			rewards: [
+				{
+					id: "5B272B30AD0EF51E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_dyes"
+						}
+					}
+				}
+				{
+					id: "789F770209372A50"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			id: "7CE90D3EB792F130"
+			tasks: [{
+				id: "59832F168543332B"
+				type: "item"
+				item: "quark:cyan_stool"
+			}]
+			rewards: [
+				{
+					id: "367D1DEFF0492237"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_mob_drops"
+						}
+					}
+				}
+				{
+					id: "0247AAB870FE6E57"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			id: "15028D7F77DB219B"
+			tasks: [{
+				id: "396EBC0B2885C443"
+				type: "item"
+				item: "mcwfences:dark_oak_stockade_fence"
+			}]
+			rewards: [
+				{
+					id: "682FA6CDD657A92A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_dyes"
+						}
+					}
+				}
+				{
+					id: "513ED1B5E0E91627"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			id: "2E8894DB9D40CF1A"
+			tasks: [{
+				id: "77403A5996D632A9"
+				type: "item"
+				item: "mcwfences:spruce_highley_gate"
+			}]
+			rewards: [
+				{
+					id: "3DA9193E5F093379"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5A60F1611B55AABA"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			id: "375BB2A834D94DC3"
+			tasks: [{
+				id: "7A82F2CEC3AA8014"
+				type: "item"
+				item: "mcwfences:railing_stone_brick_wall"
+			}]
+			rewards: [
+				{
+					id: "7D262DCEA7899D6F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_mob_drops"
+						}
+					}
+				}
+				{
+					id: "6AA1C8AC7938E031"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			id: "622A77A6C9176CD8"
+			tasks: [{
+				id: "55518C8039EF22EB"
+				type: "item"
+				item: "mcwfences:oak_picket_fence"
+			}]
+			rewards: [
+				{
+					id: "73CEFFFDCEAEC94A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5FC0D517B453C4D1"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			id: "7925466C5B89D746"
+			tasks: [{
+				id: "75DD1F250EAEFBFB"
+				type: "item"
+				item: "mcwfences:modern_stone_brick_wall"
+			}]
+			rewards: [
+				{
+					id: "7AA0B38A7053B4F9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "179B368748EA21E3"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			id: "40A43121641395FF"
+			tasks: [{
+				id: "0ED41127AEB256BD"
+				type: "item"
+				item: "mcwfences:oak_wired_fence"
+			}]
+			rewards: [
+				{
+					id: "20D5AE5B3BDE1CCD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6173B0CEDE1EE0F8"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -1.5d
+			id: "15FD95F301E3FAA2"
+			tasks: [{
+				id: "71AE0C1AF4A0F74F"
+				type: "item"
+				item: "supplementaries:hanging_sign_jungle"
+			}]
+			rewards: [{
+				id: "72B466802C559EAE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -3.5d
+			y: -6.0d
+			dependencies: ["6D090464E0BCD190"]
+			id: "576FFFA30568FC8A"
+			tasks: [{
+				id: "30AB9D6AB9A16ABB"
+				type: "item"
+				item: "mcwfurnitures:spruce_wardrobe"
+			}]
+			rewards: [
+				{
+					id: "323BC660BB88BC14"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0DD1B80A0F489010"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -4.5d
+			dependencies: ["6D090464E0BCD190"]
+			id: "578929FC58B2045B"
+			tasks: [{
+				id: "156F809E7B22F647"
+				type: "item"
+				item: "mcwfurnitures:spruce_bookshelf_cupboard"
+			}]
+			rewards: [
+				{
+					id: "03D3324CC850AF3F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "189E219ED90B8C7F"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+	]
+}

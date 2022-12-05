@@ -1,0 +1,12 @@
+
+[General]
+	#The transfer rate of pipes
+	#Range: > 1
+	transferRate = 50
+	#The pump rate of pumps
+	#Range: > 1
+	pumpRate = 25
+	#The internal volume of pipes
+	#Range: > 1
+	internalVolume = 1000
+

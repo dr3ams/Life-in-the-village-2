@@ -1,0 +1,278 @@
+{
+	tabs: [
+		{
+			title: "Materials(stacks)"
+			icon: "minecraft:cobblestone"
+			entries: [
+				{
+					item: { id: "minecraft:granite", Count: 64b }
+					buy: 10L
+				}
+				{
+					item: { id: "minecraft:andesite", Count: 64b }
+					buy: 10L
+				}
+				{
+					item: { id: "minecraft:diorite", Count: 64b }
+					buy: 10L
+				}
+				{
+					item: { id: "minecraft:cobblestone", Count: 64b }
+					buy: 10L
+				}
+				{
+					item: { id: "structurize:brown_bricks", Count: 64b }
+					buy: 20L
+				}
+				{
+					item: { id: "structurize:beige_bricks", Count: 64b }
+					buy: 20L
+				}
+				{
+					item: { id: "structurize:brown_stone_bricks", Count: 64b }
+					buy: 20L
+				}
+				{
+					item: { id: "structurize:cream_stone_bricks", Count: 64b }
+					buy: 20L
+				}
+				{
+					item: { id: "structurize:beige_stone_bricks", Count: 64b }
+					buy: 20L
+				}
+				{
+					item: { id: "projectvibrantjourneys:tamarack_log", Count: 64b }
+					buy: 20L
+				}
+				{
+					item: { id: "projectvibrantjourneys:joshua_log", Count: 64b }
+					buy: 20L
+				}
+				{
+					item: { id: "projectvibrantjourneys:willow_log", Count: 64b }
+					buy: 20L
+				}
+				{
+					item: { id: "projectvibrantjourneys:mangrove_log", Count: 64b }
+					buy: 20L
+				}
+				{
+					item: { id: "projectvibrantjourneys:cottonwood_log", Count: 64b }
+					buy: 20L
+				}
+				{
+					item: { id: "projectvibrantjourneys:juniper_log", Count: 64b }
+					buy: 20L
+				}
+				{
+					item: { id: "projectvibrantjourneys:fir_log", Count: 64b }
+					buy: 20L
+				}
+				{
+					item: { id: "projectvibrantjourneys:redwood_log", Count: 64b }
+					buy: 20L
+				}
+			]
+		}
+		{
+			title: "Dyes"
+			icon: { id: "minecraft:red_dye", Count: 8b }
+			entries: [
+				{
+					item: { id: "minecraft:black_dye", Count: 8b }
+					buy: 10L
+				}
+				{
+					item: { id: "minecraft:white_dye", Count: 8b }
+					buy: 10L
+				}
+				{
+					item: { id: "minecraft:green_dye", Count: 8b }
+					buy: 10L
+				}
+				{
+					item: { id: "minecraft:red_dye", Count: 8b }
+					buy: 10L
+				}
+				{
+					item: { id: "minecraft:brown_dye", Count: 8b }
+					buy: 10L
+				}
+				{
+					item: { id: "minecraft:blue_dye", Count: 8b }
+					buy: 10L
+				}
+			]
+		}
+		{
+			title: "Lootboxes"
+			icon: "aquaculture:treasure_chest"
+			entries: [
+				{
+					item: "aquaculture:box"
+					buy: 10L
+				}
+				{
+					item: "aquaculture:lockbox"
+					buy: 20L
+				}
+				{
+					item: "aquaculture:treasure_chest"
+					buy: 30L
+				}
+				{
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_materials"
+						}
+					}
+					buy: 20L
+				}
+				{
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_dyes"
+						}
+					}
+					buy: 5L
+				}
+				{
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_mob_drops"
+						}
+					}
+					buy: 10L
+				}
+				{
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_enchant"
+						}
+					}
+					buy: 30L
+				}
+				{
+					item: "randomite:randomite_ore"
+					buy: 10L
+				}
+			]
+		}
+		{
+			title: "Materials"
+			icon: "minecraft:feather"
+			entries: [
+				{
+					item: "minecraft:bone"
+					buy: 5L
+				}
+				{
+					item: "minecraft:feather"
+					buy: 2L
+				}
+				{
+					item: "minecraft:chicken_spawn_egg"
+					buy: 30L
+				}
+				{
+					item: "minecraft:egg"
+					buy: 2L
+				}
+				{
+					item: "minecraft:gunpowder"
+					buy: 10L
+				}
+				{
+					item: "minecraft:ink_sac"
+					buy: 5L
+				}
+				{
+					item: "minecraft:slime_ball"
+					buy: 5L
+				}
+			]
+		}
+		{
+			title: "Plants"
+			icon: "terraincognita:hazel_sapling"
+			entries: [
+				{
+					item: "projectvibrantjourneys:cottonwood_sapling"
+					buy: 5L
+				}
+				{
+					item: "projectvibrantjourneys:palm_sapling"
+					buy: 5L
+				}
+				{
+					item: "projectvibrantjourneys:mangrove_sapling"
+					buy: 5L
+				}
+				{
+					item: "projectvibrantjourneys:willow_sapling"
+					buy: 5L
+				}
+				{
+					item: "projectvibrantjourneys:redwood_sapling"
+					buy: 5L
+				}
+				{
+					item: "projectvibrantjourneys:pine_sapling"
+					buy: 5L
+				}
+				{
+					item: "projectvibrantjourneys:fir_sapling"
+					buy: 5L
+				}
+				{
+					item: "projectvibrantjourneys:aspen_sapling"
+					buy: 5L
+				}
+				{
+					item: "projectvibrantjourneys:juniper_sapling"
+					buy: 5L
+				}
+				{
+					item: "projectvibrantjourneys:baobab_sapling"
+					buy: 5L
+				}
+				{
+					item: "projectvibrantjourneys:red_maple_sapling"
+					buy: 5L
+				}
+				{
+					item: "projectvibrantjourneys:orange_maple_sapling"
+					buy: 5L
+				}
+				{
+					item: "projectvibrantjourneys:purple_maple_sapling"
+					buy: 5L
+				}
+				{
+					item: "projectvibrantjourneys:white_sakura_sapling"
+					buy: 5L
+				}
+				{
+					item: "projectvibrantjourneys:tamarack_sapling"
+					buy: 5L
+				}
+				{
+					item: "projectvibrantjourneys:joshua_sapling"
+					buy: 5L
+				}
+				{
+					item: "projectvibrantjourneys:pink_sakura_sapling"
+					buy: 5L
+				}
+			]
+		}
+	]
+}

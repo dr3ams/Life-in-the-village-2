@@ -1,0 +1,14 @@
+{
+  "type" : "recipe",
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+        "item" : "aquaculture:tin_can",
+        "count": 1
+    }
+  ],
+  "result": "minecraft:iron_nugget",
+  "count": 7,
+  "min-building-level": 1,
+  "show-tooltip": true
+}

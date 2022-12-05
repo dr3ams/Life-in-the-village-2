@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+"pamhc2foodcore:flouritem",
+"pamhc2foodcore:doughitem",
+"pamhc2foodcore:pastaitem",
+"pamhc2foodcore:batteritem"
+    ]
+}
